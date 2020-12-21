@@ -1,0 +1,40 @@
+bin	norm=sein	tense=praesens	person=1	number=sg
+bist	norm=sein	tense=praesens	person=2	number=sg
+ist	norm=sein	tense=praesens	person=3	number=sg
+sind	norm=sein	tense=praesens	person=13	number=pl
+seid	norm=sein	tense=praesens	person=2	number=pl
+war	norm=sein	tense=praeteritum	person=13	number=sg
+warst	norm=sein	tense=praeteritum	person=13	number=sg
+waren	norm=sein	tense=praeteritum	person=13	number=pl
+wart	norm=sein	tense=praeteritum	person=2	number=pl
+gewesen	norm=sein	tense=perfekt
+
+wäre	norm=sein	mood=konjunktiv2	person=13	number=sg
+wären	norm=sein	mood=konjunktiv2	person=13	number=pl
+wärest	norm=sein	mood=konjunktiv2	person=2	number=sg
+wäret	norm=sein	mood=konjunktiv2	person=2	number=pl
+
+sei	norm=sein	mood=konjunktiv1	person=13	number=sg
+seien	norm=sein	mood=konjunktiv1	person=13	number=pl
+seiet	norm=sein	mood=konjunktiv1	person=2	number=pl
+seiest	norm=sein	mood=konjunktiv1	person=2	number=sg
+
+Bin	norm=sein	tense=praesens	person=1	number=sg
+Bist	norm=sein	tense=praesens	person=2	number=sg
+Ist	norm=sein	tense=praesens	person=3	number=sg
+Sind	norm=sein	tense=praesens	person=13	number=pl
+Seid	norm=sein	tense=praesens	person=2	number=pl
+War	norm=sein	tense=praeteritum	person=13	number=sg
+Waren	norm=sein	tense=praeteritum	person=13	number=pl
+Wart	norm=sein	tense=praeteritum	person=2	number=pl
+Gewesen	norm=sein	tense=perfekt
+
+Wäre	norm=sein	mood=konjunktiv2	person=13	number=sg
+Wären	norm=sein	mood=konjunktiv2	person=13	number=pl
+Wärest	norm=sein	mood=konjunktiv2	person=2	number=sg
+Wäret	norm=sein	mood=konjunktiv2	person=2	number=pl
+
+Sei	norm=sein	mood=konjunktiv1	person=13	number=sg
+Seien	norm=sein	mood=konjunktiv1	person=13	number=pl
+Seiet	norm=sein	mood=konjunktiv1	person=2	number=pl
+Seiest	norm=sein	mood=konjunktiv1	person=2	number=sg

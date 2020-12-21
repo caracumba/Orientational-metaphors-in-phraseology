@@ -1,0 +1,21 @@
+scheitere	norm=scheitern	tense=praesens	person=1	number=sg
+scheiterst	norm=scheitern	tense=praesens	person=2	number=sg
+scheitert	norm=scheitern	tense=praesens	person=32	number=sgpl
+scheitern	norm=scheitern	tense=praesens	person=13	number=pl	infinitiv=yes
+scheiterte	norm=scheitern	tense=praeteritum	person=13	number=sg
+scheitertest	norm=scheitern	tense=praeteritum	person=2	number=sg
+scheiterten	norm=scheitern	tense=praeteritum	person=13	number=pl
+scheitertet	norm=scheitern	tense=praeteritum	person=2	number=pl
+gescheitert	norm=scheitern	tense=perfekt	person=1	number=sgpl
+scheitere	norm=scheitern	mood=imperativ	person=2	number=sg
+
+Scheitere	norm=scheitern	tense=praesens	person=1	number=sg
+Scheiterst	norm=scheitern	tense=praesens	person=2	number=sg
+Scheitert	norm=scheitern	tense=praesens	person=32	number=sgpl
+Scheitern	norm=scheitern	tense=praesens	person=13	number=pl	infinitiv=yes
+Scheiterte	norm=scheitern	tense=praeteritum	person=13	number=sg
+Scheitertest	norm=scheitern	tense=praeteritum	person=2	number=sg
+Scheiterten	norm=scheitern	tense=praeteritum	person=13	number=pl
+Scheitertet	norm=scheitern	tense=praeteritum	person=2	number=pl
+Gescheitert	norm=scheitern	tense=perfekt	person=1	number=sgpl
+Scheitere	norm=scheitern	mood=imperativ	person=2	number=sg

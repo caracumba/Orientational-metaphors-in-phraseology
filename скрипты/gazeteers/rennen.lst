@@ -1,0 +1,32 @@
+renne	norm=rennen	tense=praesens	person=1	number=sg
+rennst	norm=rennen	tense=praesens	person=2	number=sg
+rennt	norm=rennen	tense=praesens	person=32	number=sgpl
+rennen	norm=rennen	tense=praesens	person=13	number=pl	infinitiv=yes
+rannte	norm=rennen	tense=praeteritum	person=13	number=sg
+ranntest	norm=rennen	tense=praeteritum	person=12	number=sg
+rannten	norm=rennen	tense=praeteritum	person=13	number=pl
+ranntet	norm=rennen	tense=praeteritum	person=2	number=pl
+gerannt	norm=rennen	tense=perfekt	person=1	number=sgpl
+renn	norm=rennen	mood=imperativ	person=2	number=sg
+
+Renne	norm=rennen	tense=praesens	person=1	number=sg
+Rennst	norm=rennen	tense=praesens	person=2	number=sg
+Rennt	norm=rennen	tense=praesens	person=32	number=sgpl
+Rennen	norm=rennen	tense=praesens	person=13	number=pl	infinitiv=yes
+Rannte	norm=rennen	tense=praeteritum	person=13	number=sg
+Ranntest	norm=rennen	tense=praeteritum	person=12	number=sg
+Rannten	norm=rennen	tense=praeteritum	person=13	number=pl
+Ranntet	norm=rennen	tense=praeteritum	person=2	number=pl
+Gerannt	norm=rennen	tense=perfekt	person=1	number=sgpl
+Renn	norm=rennen	mood=imperativ	person=2	number=sg
+
+einrenne	norm=einrennen	tense=praesens	person=1	number=sg
+einrennst	norm=einrennen	tense=praesens	person=2	number=sg
+einrennt	norm=einrennen	tense=praesens	person=32	number=sgpl
+einrennen	norm=einrennen	tense=praesens	person=13	number=pl	infinitiv=yes
+einrannte	norm=einrennen	tense=praeteritum	person=13	number=sg
+einranntest	norm=einrennen	tense=praeteritum	person=12	number=sg
+einrannten	norm=einrennen	tense=praeteritum	person=13	number=pl
+einranntet	norm=einrennen	tense=praeteritum	person=2	number=pl
+eingerannt	norm=einrennen	tense=perfekt	person=1	number=sgpl
+einzurennen	norm=einrennen	infinitiv_zu=yes

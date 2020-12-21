@@ -1,0 +1,23 @@
+soll	norm=sollen	tense=praesens	person=13	number=sg
+sollst	norm=sollen	tense=praesens	person=2	number=sg
+sollen	norm=sollen	tense=praesens	person=13	number=pl	infinitiv="yes"
+sollt	norm=sollen	tense=praesens	person=2	number=pl
+sollte	norm=sollen	tense=praeteritum	person=13	number=sg
+solltest	norm=sollen	tense=praeteritum	person=2	number=sg
+sollten	norm=sollen	tense=praeteritum	person=13	number=pl
+solltet	norm=sollen	tense=praeteritum	person=2	number=pl
+gesollt	norm=sollen	tense=perfekt	number=sgpl
+
+solle	norm=sollen	mood=konjunktiv1	person=13	number=sg
+
+Soll	norm=sollen	tense=praesens	person=13	number=sg
+Sollst	norm=sollen	tense=praesens	person=2	number=sg
+Sollen	norm=sollen	tense=praesens	person=13	number=pl	infinitiv="yes"
+Sollt	norm=sollen	tense=praesens	person=2	number=pl
+Sollte	norm=sollen	tense=praeteritum	person=13	number=sg
+Solltest	norm=sollen	tense=praeteritum	person=2	number=sg
+Sollten	norm=sollen	tense=praeteritum	person=13	number=pl
+Solltet	norm=sollen	tense=praeteritum	person=2	number=pl
+Gesollt	norm=sollen	tense=perfekt	number=sgpl
+
+Solle	norm=sollen	mood=konjunktiv1	person=13	number=sg

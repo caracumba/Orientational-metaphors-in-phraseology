@@ -1,0 +1,21 @@
+suche	norm=suchen	tense=praesens	person=1	number=sg
+suchst	norm=suchen	tense=praesens	person=2	number=sg
+sucht	norm=suchen	tense=praesens	person=32	number=sgpl
+suchen	norm=suchen	tense=praesens	person=13	number=pl	infinitiv=yes
+suchte	norm=suchen	tense=praeteritum	person=13	number=sg
+suchtest	norm=suchen	tense=praeteritum	person=2	number=sg
+suchten	norm=suchen	tense=praeteritum	person=13	number=pl
+suchtet	norm=suchen	tense=praeteritum	person=2	number=pl
+gesucht	norm=suchen	tense=perfekt	person=1	number=sgpl
+such	norm=suchen	mood=imperativ	person=2	number=sg
+
+Suche	norm=suchen	tense=praesens	person=1	number=sg
+Suchst	norm=suchen	tense=praesens	person=2	number=sg
+Sucht	norm=suchen	tense=praesens	person=32	number=sgpl
+Suchen	norm=suchen	tense=praesens	person=13	number=pl	infinitiv=yes
+Suchte	norm=suchen	tense=praeteritum	person=13	number=sg
+Suchtest	norm=suchen	tense=praeteritum	person=2	number=sg
+Suchten	norm=suchen	tense=praeteritum	person=13	number=pl
+Suchtet	norm=suchen	tense=praeteritum	person=2	number=pl
+Gesucht	norm=suchen	tense=perfekt	person=1	number=sgpl
+Such	norm=suchen	mood=imperativ	person=2	number=sg

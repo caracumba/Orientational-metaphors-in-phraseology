@@ -1,0 +1,503 @@
+Imports: {
+	import static gate.Utils.*;
+}
+
+
+Phase: find_idiom
+Input: Clause Hauptverb Token Lookup
+Options: control = appelt 
+
+Template: verb = "(?ui)bringen"
+//Template: elem = "(?ui)sich"
+Template: elem = "(?ui)[Ss]chwung"
+
+//Template: verb2 = "(?ui)nachdenken"
+
+// Rule: find_idiom_with_prefix
+
+// (
+// 	{Clause contains Token.string ==~ [elem], Clause contains Token.string ==~ [pref], Clause contains Hauptverb.norm ==~ [verb]}
+// ):binding
+// -->
+// :binding.Idiom = {}
+
+Rule: find_idiom
+
+(
+	{Clause contains Token.string ==~ [elem], Clause contains Hauptverb.norm ==~ [verb]} //, Clause notContains Hauptverb.norm !=~ [verb]}
+):binding
+-->
+:binding.Idiom = {}
+
+// Rule: find_verb_prefix
+
+// (
+// 	{Clause contains Token.string ==~ [elem], Clause contains Hauptverb.norm ==~ [verb]}
+// 	|{Clause contains Hauptverb.norm ==~ [verb2]}
+// ):binding
+// -->
+// :binding.Idiom = {}
+
+// Rule: find_verb
+
+// (
+// 	{Clause contains Hauptverb.norm ==~ [verb]} //, Clause notContains Hauptverb.norm !=~ [verb]
+// ):binding
+// -->
+// :binding.Idiom = {}
+
+Phase: verb_modifications
+Input: Token Idiom Hilfsverb Hauptverb
+Options: control = appelt 
+
+Rule: passiv
+
+(
+	{Idiom contains Hilfsverb.norm ==~ "werden", Idiom contains Hauptverb.tense ==~ "perfekt"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("passiv", "werden");
+		AnnotationSet hilfsverb = inputAS.get("Hilfsverb", start(bindingAnnots), end(bindingAnnots));
+		if (hilfsverb != null && hilfsverb.size() > 0) {
+			Annotation hilf = hilfsverb.iterator().next();
+			ann.getFeatures().put("tense", hilf.getFeatures().get("tense"));
+			ann.getFeatures().put("person", hilf.getFeatures().get("person"));
+			ann.getFeatures().put("number", hilf.getFeatures().get("number"));
+		}
+	}
+}
+
+
+Rule: futur1
+
+(
+	{Idiom contains Hilfsverb.norm ==~ "werden", Idiom contains Hilfsverb.tense ==~ "praesens", Idiom contains Hauptverb.infinitiv ==~ "yes"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		//ann.getFeatures().put("passiv", "werden");
+		AnnotationSet hilfsverb = inputAS.get("Hilfsverb", start(bindingAnnots), end(bindingAnnots));
+		if (hilfsverb != null && hilfsverb.size() > 0) {
+			Annotation hilf = hilfsverb.iterator().next();
+			ann.getFeatures().put("tense", "futur1");
+			ann.getFeatures().put("person", hilf.getFeatures().get("person"));
+			ann.getFeatures().put("number", hilf.getFeatures().get("number"));
+		}
+	}
+}
+
+Rule: modals
+
+(
+	{Idiom contains Modalverb, Idiom contains Hauptverb.infinitiv ==~ "yes"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		AnnotationSet modals = inputAS.get("Modalverb", start(bindingAnnots), end(bindingAnnots));
+		if (modals != null && modals.size() > 0) {
+			Annotation modal = modals.iterator().next();
+			ann.getFeatures().put("modalverb", modal.getFeatures().get("norm"));
+			ann.getFeatures().put("tense", modal.getFeatures().get("tense"));
+			ann.getFeatures().put("person", modal.getFeatures().get("person"));
+			ann.getFeatures().put("number", modal.getFeatures().get("number"));
+			if (modal.getFeatures().containsKey("mood")){
+				ann.getFeatures().put("mood", modal.getFeatures().get("mood"));
+			}
+		}
+	}
+}
+
+Rule: konjunktiv_wuerde
+
+(
+	{Idiom contains Hilfsverb.norm ==~ "wuerden", Idiom contains Hauptverb.infinitiv ==~ "yes"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("konjunktiv", "wuerden");
+		AnnotationSet hilfsverb = inputAS.get("Hilfsverb", start(bindingAnnots), end(bindingAnnots));
+		if (hilfsverb != null && hilfsverb.size() > 0) {
+			Annotation hilf = hilfsverb.iterator().next();
+			// ann.getFeatures().put("tense", hilf.getFeatures().get("tense"));
+			ann.getFeatures().put("person", hilf.getFeatures().get("person"));
+			ann.getFeatures().put("number", hilf.getFeatures().get("number"));
+			ann.getFeatures().put("mood", "konjunktiv2");
+		}
+	}
+}
+
+Rule: konjunktiv_wuerde_passiv
+
+(
+	{Idiom contains Hilfsverb.norm ==~ "wuerden", Idiom contains Hauptverb.tense ==~ "perfekt"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("konjunktiv", "wuerden");
+		AnnotationSet hilfsverb = inputAS.get("Hilfsverb", start(bindingAnnots), end(bindingAnnots));
+		if (hilfsverb != null && hilfsverb.size() > 0) {
+			Annotation hilf = hilfsverb.iterator().next();
+			// ann.getFeatures().put("tense", hilf.getFeatures().get("tense"));
+			ann.getFeatures().put("person", hilf.getFeatures().get("person"));
+			ann.getFeatures().put("number", hilf.getFeatures().get("number"));
+			ann.getFeatures().put("mood", "konjunktiv2");
+			ann.getFeatures().put("passiv_konj", "yes");
+		}
+	}
+}
+
+Rule: perfekt_haben_konjunktiv
+
+(
+	{Idiom contains Hilfsverb.norm ==~ "haben", Idiom contains Hilfsverb.mood ==~ "konjunktiv1|konjunktiv2", Idiom contains Hauptverb.tense ==~ "perfekt"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		AnnotationSet hilfsverb = inputAS.get("Hilfsverb", start(bindingAnnots), end(bindingAnnots));
+		if (hilfsverb != null && hilfsverb.size() > 0) {
+			Annotation hilf = hilfsverb.iterator().next();
+			//ann.getFeatures().put("tense", "perfekt");
+			ann.getFeatures().put("person", hilf.getFeatures().get("person"));
+			ann.getFeatures().put("number", hilf.getFeatures().get("number"));
+			if (hilf.getFeatures().containsKey("mood")){
+				ann.getFeatures().put("mood", hilf.getFeatures().get("mood"));
+			}
+		}
+	}
+}
+
+Rule: perfekt_sein_konjunktiv
+
+(
+	{Idiom contains Hilfsverb.norm ==~ "sein", Idiom contains  Hilfsverb.mood ==~ "konjunktiv1|konjunktiv2",  Idiom contains Hauptverb.tense ==~ "perfekt"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		//ann.getFeatures().put("perfekt", "sein");
+		AnnotationSet hilfsverb = inputAS.get("Hilfsverb", start(bindingAnnots), end(bindingAnnots));
+		if (hilfsverb != null && hilfsverb.size() > 0) {
+			Annotation hilf = hilfsverb.iterator().next();
+			//ann.getFeatures().put("tense", "perfekt");
+			ann.getFeatures().put("person", hilf.getFeatures().get("person"));
+			ann.getFeatures().put("number", hilf.getFeatures().get("number"));
+			if (hilf.getFeatures().containsKey("mood")){
+				ann.getFeatures().put("mood", hilf.getFeatures().get("mood"));
+			}
+		}
+	}
+}
+
+Rule: perfekt_haben
+
+(
+	{Idiom contains Hilfsverb.norm ==~ "haben", Idiom notContains Hilfsverb.mood ==~ "konjunktiv1|konjunktiv2", Idiom contains Hauptverb.tense ==~ "perfekt"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("perfekt", "haben");
+		AnnotationSet hilfsverb = inputAS.get("Hilfsverb", start(bindingAnnots), end(bindingAnnots));
+		if (hilfsverb != null && hilfsverb.size() > 0) {
+			Annotation hilf = hilfsverb.iterator().next();
+			ann.getFeatures().put("tense", "perfekt");
+			ann.getFeatures().put("person", hilf.getFeatures().get("person"));
+			ann.getFeatures().put("number", hilf.getFeatures().get("number"));
+		}
+	}
+}
+
+Rule: perfekt_sein
+
+(
+	{Idiom contains Hilfsverb.norm ==~ "sein", Idiom notContains Hilfsverb.mood ==~ "konjunktiv1|konjunktiv2", Idiom contains Hauptverb.tense ==~ "perfekt"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("perfekt", "sein");
+		AnnotationSet hilfsverb = inputAS.get("Hilfsverb", start(bindingAnnots), end(bindingAnnots));
+		if (hilfsverb != null && hilfsverb.size() > 0) {
+			Annotation hilf = hilfsverb.iterator().next();
+			ann.getFeatures().put("tense", "perfekt");
+			ann.getFeatures().put("person", hilf.getFeatures().get("person"));
+			ann.getFeatures().put("number", hilf.getFeatures().get("number"));
+		}
+	}
+}
+
+Rule: partizip2
+
+(
+	{Idiom contains Hauptverb.tense ==~ "perfekt", Idiom notContains Hilfsverb}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("tense", "partizip2");
+	}
+}
+
+Rule: infinitiv_zu
+
+(
+	{Idiom contains Hauptverb.infinitiv_zu ==~ "yes"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		AnnotationSet hauptverb = inputAS.get("Hauptverb", start(bindingAnnots), end(bindingAnnots));
+		if (hauptverb != null && hauptverb.size() > 0) {
+			Annotation haupt = hauptverb.iterator().next();
+			ann.getFeatures().put("infinitiv_zu", "yes");
+		}
+	}
+}
+
+Rule: praeteritum_praesens
+(
+	{Idiom contains Hauptverb.tense ==~ "praeteritum|praesens", Idiom notContains Hauptverb.infinitiv_zu == "yes"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		AnnotationSet hauptverb = inputAS.get("Hauptverb", start(bindingAnnots), end(bindingAnnots));
+		if (hauptverb != null && hauptverb.size() > 0) {
+			Annotation haupt = hauptverb.iterator().next();
+			ann.getFeatures().put("tense", haupt.getFeatures().get("tense"));
+			ann.getFeatures().put("person", haupt.getFeatures().get("person"));
+			ann.getFeatures().put("number", haupt.getFeatures().get("number"));
+			if (haupt.getFeatures().containsKey("mood")) {
+				ann.getFeatures().put("mood", haupt.getFeatures().get("mood"));
+			}
+		}
+	}
+}
+
+
+Rule: konjunktiv
+
+(
+	{Idiom contains Hauptverb.mood ==~ "konjunktiv1|konjunktiv2"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		AnnotationSet hauptverb = inputAS.get("Hauptverb", start(bindingAnnots), end(bindingAnnots));
+		if (hauptverb != null && hauptverb.size() > 0) {
+			Annotation haupt = hauptverb.iterator().next();
+			ann.getFeatures().put("mood", haupt.getFeatures().get("mood"));
+			ann.getFeatures().put("person", haupt.getFeatures().get("person"));
+			ann.getFeatures().put("number", haupt.getFeatures().get("number"));
+		}
+	}
+}
+
+Rule: imperativ
+
+(
+	{Idiom contains Hauptverb.mood ==~ "imperativ"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		AnnotationSet hauptverb = inputAS.get("Hauptverb", start(bindingAnnots), end(bindingAnnots));
+		if (hauptverb != null && hauptverb.size() > 0) {
+			Annotation haupt = hauptverb.iterator().next();
+			ann.getFeatures().put("mood", haupt.getFeatures().get("mood"));
+			ann.getFeatures().put("person", haupt.getFeatures().get("person"));
+			ann.getFeatures().put("number", haupt.getFeatures().get("number"));
+		}
+	}
+}
+
+Phase: other_modifications
+Input: Token Idiom 
+Options: control = appelt 
+
+Rule: ich
+
+(
+	{Idiom contains Token.string ==~ "(?ui)ich"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("ich-Form", "yes");
+	}
+}
+
+Rule: du
+
+(
+	{Idiom contains Token.string ==~ "(?ui)du"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("du-Form", "yes");
+	}
+}
+
+Rule: wir
+
+(
+	{Idiom contains Token.string ==~ "(?ui)wir"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("wir-Form", "yes");
+	}
+}
+
+Phase: negation
+Input: Token Idiom 
+Options: control = appelt 
+
+Rule: negation_nicht
+
+(
+	{Idiom contains Token.string == "nicht"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("nicht", "yes");
+	}
+}
+
+Rule: negation_kein
+
+(
+	{Idiom contains Token.string =~ "kein"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("kein", "yes");
+	}
+}
+
+Rule: negation_niemand
+
+(
+	{Idiom contains Token.string =~ "nie"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("nie", "yes");
+	}
+}
+
+Phase: adjektiv
+Input: Token Idiom 
+Options: control = appelt 
+
+Rule: adjektiv
+
+(
+	{Token.upos == "ADJ", Token within Idiom} //, Token.string !=~ [elem]}
+):binding
+-->
+:binding{
+	AnnotationSet anns = getCoveringAnnotations(inputAS, bindingAnnots, "Idiom");
+	AnnotationSet tokens = inputAS.get("Token", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		if (tokens != null && tokens.size() > 0) {
+			Annotation token = tokens.iterator().next();
+			ann.getFeatures().put(token.getFeatures().get("string"), "adj");
+		}
+	}
+}
+
+Phase: adverb
+Input: Token Idiom 
+Options: control = appelt 
+
+Rule: adverb
+
+(
+	{Token.upos == "ADV", Token within Idiom} //, Token.string !=~ [elem]}
+):binding
+-->
+:binding{
+	AnnotationSet anns = getCoveringAnnotations(inputAS, bindingAnnots, "Idiom");
+	AnnotationSet tokens = inputAS.get("Token", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		if (tokens != null && tokens.size() > 0) {
+			Annotation token = tokens.iterator().next();
+			ann.getFeatures().put(token.getFeatures().get("string"), "adv");
+		}
+	}
+}
+
+Phase: wrong
+Input: Token Idiom 
+Options: control = appelt 
+
+Rule: wrong
+
+(
+	{Idiom}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Idiom", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		if (!ann.getFeatures().containsKey("tense") && !ann.getFeatures().containsKey("mood") && !ann.getFeatures().containsKey("infinitiv_zu")) {
+			ann.getFeatures().put("wrong", "yes");
+		}
+	}
+}

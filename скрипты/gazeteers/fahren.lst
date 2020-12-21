@@ -1,0 +1,25 @@
+fahre	norm=fahren	tense=praesens	person=1	number=sg
+fährst	norm=fahren	tense=praesens	person=2	number=sg
+fährt	norm=fahren	tense=praesens	person=3	number=sg
+fahren	norm=fahren	tense=praesens	person=13	number=pl	infinitiv=yes
+fahrt	norm=fahren	tense=praesens	person=2	number=pl
+fuhr	norm=fahren	tense=praeteritum	person=13	number=sg
+fuhrst	norm=fahren	tense=praeteritum	person=12	number=sg
+fuhren	norm=fahren	tense=praeteritum	person=13	number=pl
+fuhrt	norm=fahren	tense=praeteritum	person=2	number=pl
+gefahren	norm=fahren	tense=perfekt	person=1	number=sgpl
+führe	norm=fahren	mood=konjunktiv2	person=13	number=sg
+fahr	norm=fahren	mood=imperativ	person=2	number=sg
+
+Fahre	norm=fahren	tense=praesens	person=1	number=sg
+Fährst	norm=fahren	tense=praesens	person=2	number=sg
+Fährt	norm=fahren	tense=praesens	person=3	number=sg
+Fahren	norm=fahren	tense=praesens	person=13	number=pl	infinitiv=yes
+Fahrt	norm=fahren	tense=praesens	person=2	number=pl
+Fuhr	norm=fahren	tense=praeteritum	person=13	number=sg
+Fuhrst	norm=fahren	tense=praeteritum	person=12	number=sg
+Fuhren	norm=fahren	tense=praeteritum	person=13	number=pl
+Fuhrt	norm=fahren	tense=praeteritum	person=2	number=pl
+Gefahren	norm=fahren	tense=perfekt	person=1	number=sgpl
+Führe	norm=fahren	mood=konjunktiv2	person=13	number=sg
+Fahr	norm=fahren	mood=imperativ	person=2	number=sg

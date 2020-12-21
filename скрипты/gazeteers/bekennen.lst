@@ -1,0 +1,25 @@
+bekenne	norm=bekennen	tense=praesens	person=1	number=sg
+bekennst	norm=bekennen	tense=praesens	person=2	number=sg
+bekennt	norm=bekennen	tense=praesens	person=32	number=sgpl
+bekennen	norm=bekennen	tense=praesens	person=13	number=pl	infinitiv=yes
+bekannte	norm=bekennen	tense=praeteritum	person=13	number=sg
+bekanntest	norm=bekennen	tense=praeteritum	person=12	number=sg
+bekannten	norm=bekennen	tense=praeteritum	person=13	number=pl
+bekanntet	norm=bekennen	tense=praeteritum	person=2	number=pl
+bekannt	norm=bekennen	tense=perfekt	person=1	number=sgpl
+bekennte	norm=bekennen	mood=konjunktiv2	person=13	number=sg
+bekennten	norm=bekennen	mood=konjunktiv2	person=13	number=pl
+bekenn	norm=bekennen	mood=imperativ	person=2	number=sg
+
+Bekenne	norm=bekennen	tense=praesens	person=1	number=sg
+Bekennst	norm=bekennen	tense=praesens	person=2	number=sg
+Bekennt	norm=bekennen	tense=praesens	person=32	number=sgpl
+Bekennen	norm=bekennen	tense=praesens	person=13	number=pl	infinitiv=yes
+Bekannte	norm=bekennen	tense=praeteritum	person=13	number=sg
+Bekanntest	norm=bekennen	tense=praeteritum	person=12	number=sg
+Bekannten	norm=bekennen	tense=praeteritum	person=13	number=pl
+Bekanntet	norm=bekennen	tense=praeteritum	person=2	number=pl
+Bekannt	norm=bekennen	tense=perfekt	person=1	number=sgpl
+Bekennte	norm=bekennen	mood=konjunktiv2	person=13	number=sg
+Bekennten	norm=bekennen	mood=konjunktiv2	person=13	number=pl
+Bekenn	norm=bekennen	mood=imperativ	person=2	number=sg

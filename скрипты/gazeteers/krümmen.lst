@@ -1,0 +1,21 @@
+krümme	norm=krümmen	tense=praesens	person=1	number=sg
+krümmst	norm=krümmen	tense=praesens	person=2	number=sg
+krümmt	norm=krümmen	tense=praesens	person=32	number=sgpl
+krümmen	norm=krümmen	tense=praesens	person=13	number=pl	infinitiv=yes
+krümmte	norm=krümmen	tense=praeteritum	person=13	number=sg
+krümmtest	norm=krümmen	tense=praeteritum	person=2	number=sg
+krümmten	norm=krümmen	tense=praeteritum	person=13	number=pl
+krümmtet	norm=krümmen	tense=praeteritum	person=2	number=pl
+gekrümmt	norm=krümmen	tense=perfekt	person=1	number=sgpl
+krümm	norm=krümmen	mood=imperativ	person=2	number=sg
+
+Krümme	norm=krümmen	tense=praesens	person=1	number=sg
+Krümmst	norm=krümmen	tense=praesens	person=2	number=sg
+Krümmt	norm=krümmen	tense=praesens	person=32	number=sgpl
+Krümmen	norm=krümmen	tense=praesens	person=13	number=pl	infinitiv=yes
+Krümmte	norm=krümmen	tense=praeteritum	person=13	number=sg
+Krümmtest	norm=krümmen	tense=praeteritum	person=2	number=sg
+Krümmten	norm=krümmen	tense=praeteritum	person=13	number=pl
+Krümmtet	norm=krümmen	tense=praeteritum	person=2	number=pl
+Gekrümmt	norm=krümmen	tense=perfekt	person=1	number=sgpl
+Krümm	norm=krümmen	mood=imperativ	person=2	number=sg

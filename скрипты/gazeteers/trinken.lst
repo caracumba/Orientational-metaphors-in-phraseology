@@ -1,0 +1,27 @@
+trinke	norm=trinken	tense=praesens	person=1	number=sg
+trinkst	norm=trinken	tense=praesens	person=2	number=sg
+trinkt	norm=trinken	tense=praesens	person=3	number=sg
+trinken	norm=trinken	tense=praesens	person=13	number=pl	infinitiv=yes
+trinkt	norm=trinken	tense=praesens	person=2	number=pl
+trank	norm=trinken	tense=praeteritum	person=13	number=sg
+trankst	norm=trinken	tense=praeteritum	person=12	number=sg
+tranken	norm=trinken	tense=praeteritum	person=13	number=pl
+trankt	norm=trinken	tense=praeteritum	person=2	number=pl
+getrunken	norm=trinken	tense=perfekt	person=1	number=sgpl
+tränke	norm=trinken	mood=konjunktiv2	person=13	number=sg
+tränken	norm=trinken	mood=konjunktiv2	person=13	number=pl
+trink	norm=trinken	mood=imperativ	person=2	number=sg
+
+Trinke	norm=trinken	tense=praesens	person=1	number=sg
+Trinkst	norm=trinken	tense=praesens	person=2	number=sg
+Trinkt	norm=trinken	tense=praesens	person=3	number=sg
+Trinken	norm=trinken	tense=praesens	person=13	number=pl	infinitiv=yes
+Trinkt	norm=trinken	tense=praesens	person=2	number=pl
+Trank	norm=trinken	tense=praeteritum	person=13	number=sg
+Trankst	norm=trinken	tense=praeteritum	person=12	number=sg
+Tranken	norm=trinken	tense=praeteritum	person=13	number=pl
+Trankt	norm=trinken	tense=praeteritum	person=2	number=pl
+Getrunken	norm=trinken	tense=perfekt	person=1	number=sgpl
+Tränke	norm=trinken	mood=konjunktiv2	person=13	number=sg
+Tränken	norm=trinken	mood=konjunktiv2	person=13	number=pl
+Trink	norm=trinken	mood=imperativ	person=2	number=sg

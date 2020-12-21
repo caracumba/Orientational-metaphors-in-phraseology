@@ -1,0 +1,21 @@
+lache	norm=lachen	tense=praesens	person=1	number=sg
+lachst	norm=lachen	tense=praesens	person=2	number=sg
+lacht	norm=lachen	tense=praesens	person=32	number=sgpl
+lachen	norm=lachen	tense=praesens	person=13	number=pl	infinitiv=yes
+lachte	norm=lachen	tense=praeteritum	person=13	number=sg
+lachtest	norm=lachen	tense=praeteritum	person=2	number=sg
+lachten	norm=lachen	tense=praeteritum	person=13	number=pl
+lachtet	norm=lachen	tense=praeteritum	person=2	number=pl
+gelacht	norm=lachen	tense=perfekt	person=1	number=sgpl
+lach	norm=lachen	mood=imperativ	person=2	number=sg
+
+Lache	norm=lachen	tense=praesens	person=1	number=sg
+Lachst	norm=lachen	tense=praesens	person=2	number=sg
+Lacht	norm=lachen	tense=praesens	person=32	number=sgpl
+Lachen	norm=lachen	tense=praesens	person=13	number=pl	infinitiv=yes
+Lachte	norm=lachen	tense=praeteritum	person=13	number=sg
+Lachtest	norm=lachen	tense=praeteritum	person=2	number=sg
+Lachten	norm=lachen	tense=praeteritum	person=13	number=pl
+Lachtet	norm=lachen	tense=praeteritum	person=2	number=pl
+Gelacht	norm=lachen	tense=perfekt	person=1	number=sgpl
+Lach	norm=lachen	mood=imperativ	person=2	number=sg

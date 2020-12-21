@@ -1,0 +1,85 @@
+Imports: {
+	import static gate.Utils.*;
+}
+
+Phase: number_comma
+Input: Split Token SpaceToken  
+Options: control = appelt
+
+Rule: number_comma
+(
+	({Token.string =~ "[0-9]"})[1,10]
+	({Token.string ==~ "[,.,]"}|{Token.category ==~ "$,"})
+	({Token.string =~ "[0-9]"})[1,10]
+):binding
+-->
+:binding.Number_comma = {}
+
+Rule: token_dash
+(
+	{Token, !SpaceToken}
+	{Token.string ==~ "-"}
+	{Token, !SpaceToken}
+):binding
+-->
+:binding.Token_dash = {}
+
+Phase: clause_split
+Input: Split Token Date Number_comma Token_dash
+Options: control = appelt
+
+Rule: clause_split
+
+(
+	{Token.string ==~ "[,!?;:.\\p{Pd}]", Token notWithin Date, Token notWithin Number_comma, Token notWithin Token_dash}
+	|{Split}
+	// \\p{Pd}
+	//|{Token.string ==~ "\\(|\\)"})[1,20]
+):binding
+-->
+:binding.ClauseSplit = {}
+
+Phase: clause
+Input: paragraph
+Options: control = once
+
+Rule: clause
+
+(
+	{paragraph}
+):binding
+-->
+//:binding.Paragraph2 = {}
+:binding{
+
+	AnnotationSet paragraph = inputAS.get("paragraph");
+	for (Annotation item : paragraph) {
+		Long start = start(item);
+		AnnotationSet splits = inputAS.get("ClauseSplit", start(item), end(item));
+		if (splits != null && splits.size() > 0) {
+			List<Annotation> ordered_splits = splits.inDocumentOrder();
+			for (Annotation split : ordered_splits) {
+				Long end = start(split);
+				AnnotationSet tokens = inputAS.get("Token", start, end);
+				if (tokens != null && tokens.size() > 0) {
+					List<Annotation> ordered_tokens = tokens.inDocumentOrder();
+					Annotation first_token = ordered_tokens.get(0);
+					//System.out.println(ordered_tokens);
+					addAnn(inputAS, start(first_token), end, "Clause", featureMap());
+					start = end(split);
+					
+				}
+			}
+			// На случай, если в конце текста нет сплита, т.к., например, 
+			// заканчивается на имя с инициалами. (Татьяна Б.)
+
+			Long end_fragment = end(item); 
+			start = start(ordered_splits.get(ordered_splits.size()-1));
+			if (end_fragment > start) {
+				addAnn(inputAS, start, end_fragment, "Clause", featureMap());
+			}
+			
+		}
+	}
+
+}

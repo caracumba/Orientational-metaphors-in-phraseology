@@ -1,0 +1,41 @@
+schlage	norm=schlagen	tense=praesens	person=1	number=sg
+schlägst	norm=schlagen	tense=praesens	person=2	number=sg
+schlägt	norm=schlagen	tense=praesens	person=3	number=sg
+schlagen	norm=schlagen	tense=praesens	person=13	number=pl	infinitiv=yes
+schlagt	norm=schlagen	tense=praesens	person=2	number=pl
+schlug	norm=schlagen	tense=praeteritum	person=13	number=sg
+schlugst	norm=schlagen	tense=praeteritum	person=12	number=sg
+schlugen	norm=schlagen	tense=praeteritum	person=13	number=pl
+schlugt	norm=schlagen	tense=praeteritum	person=2	number=pl
+geschlagen	norm=schlagen	tense=perfekt	person=1	number=sgpl
+schlüge	norm=schlagen	mood=konjunktiv2	person=13	number=sg
+schlügen	norm=schlagen	mood=konjunktiv2	person=13	number=pl
+schlag	norm=schlagen	mood=imperativ	person=2	number=sg
+
+Schlage	norm=schlagen	tense=praesens	person=1	number=sg
+Schlägst	norm=schlagen	tense=praesens	person=2	number=sg
+Schlägt	norm=schlagen	tense=praesens	person=3	number=sg
+Schlagen	norm=schlagen	tense=praesens	person=13	number=pl	infinitiv=yes
+Schlagt	norm=schlagen	tense=praesens	person=2	number=pl
+Schlug	norm=schlagen	tense=praeteritum	person=13	number=sg
+Schlugst	norm=schlagen	tense=praeteritum	person=12	number=sg
+Schlugen	norm=schlagen	tense=praeteritum	person=13	number=pl
+Schlugt	norm=schlagen	tense=praeteritum	person=2	number=pl
+Geschlagen	norm=schlagen	tense=perfekt	person=1	number=sgpl
+Schlüge	norm=schlagen	mood=konjunktiv2	person=13	number=sg
+Schlügen	norm=schlagen	mood=konjunktiv2	person=13	number=pl
+Schlag	norm=schlagen	mood=imperativ	person=2	number=sg
+
+ausschlage	norm=ausschlagen	tense=praesens	person=1	number=sg
+ausschlägst	norm=ausschlagen	tense=praesens	person=2	number=sg
+ausschlägt	norm=ausschlagen	tense=praesens	person=3	number=sg
+ausschlagen	norm=ausschlagen	tense=praesens	person=13	number=pl	infinitiv=yes
+ausschlagt	norm=ausschlagen	tense=praesens	person=2	number=pl
+ausschlug	norm=ausschlagen	tense=praeteritum	person=13	number=sg
+ausschlugst	norm=ausschlagen	tense=praeteritum	person=12	number=sg
+ausschlugen	norm=ausschlagen	tense=praeteritum	person=13	number=pl
+ausschlugt	norm=ausschlagen	tense=praeteritum	person=2	number=pl
+ausgeschlagen	norm=ausschlagen	tense=perfekt	person=1	number=sgpl
+ausschlüge	norm=ausschlagen	mood=konjunktiv2	person=13	number=sg
+ausschlügen	norm=ausschlagen	mood=konjunktiv2	person=13	number=pl
+auszuschlagen	norm=ausschlagen	tense=perfekt	person=1	number=sgpl infinitiv_zu=yes

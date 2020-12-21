@@ -1,0 +1,21 @@
+belaste	norm=belasten	tense=praesens	person=1	number=sg
+belastest	norm=belasten	tense=praesens	person=2	number=sg
+belastet	norm=belasten	tense=praesens	person=32	number=sgpl
+belasten	norm=belasten	tense=praesens	person=13	number=pl	infinitiv=yes
+belastete	norm=belasten	tense=praeteritum	person=13	number=sg
+belastetest	norm=belasten	tense=praeteritum	person=2	number=sg
+belasteten	norm=belasten	tense=praeteritum	person=13	number=pl
+belastetet	norm=belasten	tense=praeteritum	person=2	number=pl
+belastet	norm=belasten	tense=perfekt	person=1	number=sgpl
+belaste	norm=belasten	mood=imperativ	person=2	number=sg
+
+Belaste	norm=belasten	tense=praesens	person=1	number=sg
+Belastest	norm=belasten	tense=praesens	person=2	number=sg
+Belastet	norm=belasten	tense=praesens	person=32	number=sgpl
+Belasten	norm=belasten	tense=praesens	person=13	number=pl	infinitiv=yes
+Belastete	norm=belasten	tense=praeteritum	person=13	number=sg
+Belastetest	norm=belasten	tense=praeteritum	person=2	number=sg
+Belasteten	norm=belasten	tense=praeteritum	person=13	number=pl
+Belastetet	norm=belasten	tense=praeteritum	person=2	number=pl
+Belastet	norm=belasten	tense=perfekt	person=1	number=sgpl
+Belaste	norm=belasten	mood=imperativ	person=2	number=sg

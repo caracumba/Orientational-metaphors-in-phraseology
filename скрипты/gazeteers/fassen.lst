@@ -1,0 +1,19 @@
+fasse	norm=fassen	tense=praesens	person=1	number=sg
+fasst	norm=fassen	tense=praesens	person=32	number=sgpl
+fassen	norm=fassen	tense=praesens	person=13	number=pl	infinitiv=yes
+fasste	norm=fassen	tense=praeteritum	person=13	number=sg
+fasstest	norm=fassen	tense=praeteritum	person=2	number=sg
+fassten	norm=fassen	tense=praeteritum	person=13	number=pl
+fasstet	norm=fassen	tense=praeteritum	person=2	number=pl
+gefasst	norm=fassen	tense=perfekt	person=1	number=sgpl
+fass	norm=fassen	mood=imperativ	person=2	number=sg
+
+Fasse	norm=fassen	tense=praesens	person=1	number=sg
+Fasst	norm=fassen	tense=praesens	person=32	number=sgpl
+Fassen	norm=fassen	tense=praesens	person=13	number=pl	infinitiv=yes
+Fasste	norm=fassen	tense=praeteritum	person=13	number=sg
+Fasstest	norm=fassen	tense=praeteritum	person=2	number=sg
+Fassten	norm=fassen	tense=praeteritum	person=13	number=pl
+Fasstet	norm=fassen	tense=praeteritum	person=2	number=pl
+Gefasst	norm=fassen	tense=perfekt	person=1	number=sgpl
+Fass	norm=fassen	mood=imperativ	person=2	number=sg

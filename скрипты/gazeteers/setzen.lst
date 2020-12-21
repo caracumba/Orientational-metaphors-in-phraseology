@@ -1,0 +1,19 @@
+setze	norm=setzen	tense=praesens	person=1	number=sg
+setzt	norm=setzen	tense=praesens	person=32	number=sgpl
+setzen	norm=setzen	tense=praesens	person=13	number=pl	infinitiv=yes
+setzte	norm=setzen	tense=praeteritum	person=13	number=sg
+setztest	norm=setzen	tense=praeteritum	person=2	number=sg
+setzten	norm=setzen	tense=praeteritum	person=13	number=pl
+setztet	norm=setzen	tense=praeteritum	person=2	number=pl
+gesetzt	norm=setzen	tense=perfekt	person=1	number=sgpl
+setz	norm=setzen	mood=imperativ	person=2	number=sg
+
+Setze	norm=setzen	tense=praesens	person=1	number=sg
+Setzt	norm=setzen	tense=praesens	person=32	number=sgpl
+Setzen	norm=setzen	tense=praesens	person=13	number=pl	infinitiv=yes
+Setzte	norm=setzen	tense=praeteritum	person=13	number=sg
+Setztest	norm=setzen	tense=praeteritum	person=2	number=sg
+Setzten	norm=setzen	tense=praeteritum	person=13	number=pl
+Setztet	norm=setzen	tense=praeteritum	person=2	number=pl
+Gesetzt	norm=setzen	tense=perfekt	person=1	number=sgpl
+Setz	norm=setzen	mood=imperativ	person=2	number=sg

@@ -1,0 +1,19 @@
+entkomme	norm=entkommen	tense=praesens	person=1	number=sg
+entkommst	norm=entkommen	tense=praesens	person=2	number=sg
+entkommt	norm=entkommen	tense=praesens	person=32	number=sgpl
+entkommen	norm=entkommen	tense=praesens	person=13	number=pl	infinitiv=yes
+entkam	norm=entkommen	tense=praeteritum	person=13	number=sg
+entkamen	norm=entkommen	tense=praeteritum	person=13	number=pl
+entkommen	norm=entkommen	tense=perfekt	person=1	number=sgpl
+entkäme	norm=entkommen	mood=konjunktiv2	person=13	number=sg
+entkomm	norm=entkommen	mood=imperativ	person=2	number=sg
+
+Entkomme	norm=entkommen	tense=praesens	person=1	number=sg
+Entkommst	norm=entkommen	tense=praesens	person=2	number=sg
+Entkommt	norm=entkommen	tense=praesens	person=32	number=sgpl
+Entkommen	norm=entkommen	tense=praesens	person=13	number=pl	infinitiv=yes
+Entkam	norm=entkommen	tense=praeteritum	person=13	number=sg
+Entkamen	norm=entkommen	tense=praeteritum	person=13	number=pl
+Entkommen	norm=entkommen	tense=perfekt	person=1	number=sgpl
+Entkäme	norm=entkommen	mood=konjunktiv2	person=13	number=sg
+Entkomm	norm=entkommen	mood=imperativ	person=2	number=sg

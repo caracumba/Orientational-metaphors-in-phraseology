@@ -1,0 +1,27 @@
+werfe	norm=werfen	tense=praesens	person=1	number=sg
+wirfst	norm=werfen	tense=praesens	person=2	number=sg
+wirft	norm=werfen	tense=praesens	person=3	number=sg
+werfen	norm=werfen	tense=praesens	person=13	number=pl	infinitiv=yes
+werft	norm=werfen	tense=praesens	person=2	number=pl
+warf	norm=werfen	tense=praeteritum	person=13	number=sg
+warfst	norm=werfen	tense=praeteritum	person=12	number=sg
+warfen	norm=werfen	tense=praeteritum	person=13	number=pl
+warft	norm=werfen	tense=praeteritum	person=2	number=pl
+geworfen	norm=werfen	tense=perfekt	person=1	number=sgpl
+würfe	norm=werfen	mood=konjunktiv2	person=13	number=sg
+würfen	norm=werfen	mood=konjunktiv2	person=13	number=pl
+wirf	norm=werfen	mood=imperativ	person=2	number=sg
+
+Werfe	norm=werfen	tense=praesens	person=1	number=sg
+Wirfst	norm=werfen	tense=praesens	person=2	number=sg
+Wirft	norm=werfen	tense=praesens	person=3	number=sg
+Werfen	norm=werfen	tense=praesens	person=13	number=pl	infinitiv=yes
+Werft	norm=werfen	tense=praesens	person=2	number=pl
+Warf	norm=werfen	tense=praeteritum	person=13	number=sg
+Warfst	norm=werfen	tense=praeteritum	person=12	number=sg
+Warfen	norm=werfen	tense=praeteritum	person=13	number=pl
+Warft	norm=werfen	tense=praeteritum	person=2	number=pl
+Geworfen	norm=werfen	tense=perfekt	person=1	number=sgpl
+Würfe	norm=werfen	mood=konjunktiv2	person=13	number=sg
+Würfen	norm=werfen	mood=konjunktiv2	person=13	number=pl
+Wirf	norm=werfen	mood=imperativ	person=2	number=sg

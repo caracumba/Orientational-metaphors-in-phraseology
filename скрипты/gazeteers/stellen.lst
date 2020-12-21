@@ -1,0 +1,32 @@
+stelle	norm=stellen	tense=praesens	person=1	number=sg
+stellst	norm=stellen	tense=praesens	person=2	number=sg
+stellt	norm=stellen	tense=praesens	person=32	number=sgpl
+stellen	norm=stellen	tense=praesens	person=13	number=pl	infinitiv=yes
+stellte	norm=stellen	tense=praeteritum	person=13	number=sg
+stelltest	norm=stellen	tense=praeteritum	person=2	number=sg
+stellten	norm=stellen	tense=praeteritum	person=13	number=pl
+stelltet	norm=stellen	tense=praeteritum	person=2	number=pl
+gestellt	norm=stellen	tense=perfekt	person=1	number=sgpl
+stell	norm=stellen	mood=imperativ	person=2	number=sg
+
+Stelle	norm=stellen	tense=praesens	person=1	number=sg
+Stellst	norm=stellen	tense=praesens	person=2	number=sg
+Stellt	norm=stellen	tense=praesens	person=32	number=sgpl
+Stellen	norm=stellen	tense=praesens	person=13	number=pl	infinitiv=yes
+Stellte	norm=stellen	tense=praeteritum	person=13	number=sg
+Stelltest	norm=stellen	tense=praeteritum	person=2	number=sg
+Stellten	norm=stellen	tense=praeteritum	person=13	number=pl
+Stelltet	norm=stellen	tense=praeteritum	person=2	number=pl
+Gestellt	norm=stellen	tense=perfekt	person=1	number=sgpl
+Stell	norm=stellen	mood=imperativ	person=2	number=sg
+
+ausstelle	norm=ausstellen	tense=praesens	person=1	number=sg
+ausstellst	norm=ausstellen	tense=praesens	person=2	number=sg
+ausstellt	norm=ausstellen	tense=praesens	person=32	number=sgpl
+ausstellen	norm=ausstellen	tense=praesens	person=13	number=pl	infinitiv=yes
+ausstellte	norm=ausstellen	tense=praeteritum	person=13	number=sg
+ausstelltest	norm=ausstellen	tense=praeteritum	person=2	number=sg
+ausstellten	norm=ausstellen	tense=praeteritum	person=13	number=pl
+ausstelltet	norm=ausstellen	tense=praeteritum	person=2	number=pl
+ausgestellt	norm=ausstellen	tense=perfekt	person=1	number=sgpl
+auszustellen	norm=ausstellen	tense=perfekt	person=1	number=sgpl infinitiv_zu=yes

@@ -1,0 +1,19 @@
+finde	norm=finden	tense=praesens	person=1	number=sg
+findest	norm=finden	tense=praesens	person=2	number=sg
+findet	norm=finden	tense=praesens	person=32	number=sgpl
+finden	norm=finden	tense=praesens	person=13	number=pl	infinitiv=yes
+fand	norm=finden	tense=praeteritum	person=13	number=sg
+fanden	norm=finden	tense=praeteritum	person=13	number=pl
+gefunden	norm=finden	tense=perfekt	person=1	number=sgpl
+fände	norm=finden	mood=konjunktiv2	person=13	number=sg
+finde	norm=finden	mood=imperativ	person=2	number=sg
+
+Finde	norm=finden	tense=praesens	person=1	number=sg
+Findest	norm=finden	tense=praesens	person=2	number=sg
+Findet	norm=finden	tense=praesens	person=32	number=sgpl
+Finden	norm=finden	tense=praesens	person=13	number=pl	infinitiv=yes
+Fand	norm=finden	tense=praeteritum	person=13	number=sg
+Fanden	norm=finden	tense=praeteritum	person=13	number=pl
+Gefunden	norm=finden	tense=perfekt	person=1	number=sgpl
+Fände	norm=finden	mood=konjunktiv2	person=13	number=sg
+Finde	norm=finden	mood=imperativ	person=2	number=sg

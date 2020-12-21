@@ -1,0 +1,21 @@
+vorankomme	norm=vorankommen	tense=praesens	person=1	number=sg
+vorankommst	norm=vorankommen	tense=praesens	person=2	number=sg
+vorankommt	norm=vorankommen	tense=praesens	person=32	number=sgpl
+vorankommen	norm=vorankommen	tense=praesens	person=13	number=pl	infinitiv=yes
+vorankam	norm=vorankommen	tense=praeteritum	person=13	number=sg
+vorankamen	norm=vorankommen	tense=praeteritum	person=13	number=pl
+vorangekommen	norm=vorankommen	tense=perfekt	person=1	number=sgpl
+vorankäme	norm=vorankommen	mood=konjunktiv2	person=13	number=sg
+vorankomm	norm=vorankommen	mood=imperativ	person=2	number=sg
+voranzukommen	norm=vorankommen	infinitiv_zu=yes
+
+Vorankomme	norm=vorankommen	tense=praesens	person=1	number=sg
+Vorankommst	norm=vorankommen	tense=praesens	person=2	number=sg
+Vorankommt	norm=vorankommen	tense=praesens	person=32	number=sgpl
+Vorankommen	norm=vorankommen	tense=praesens	person=13	number=pl	infinitiv=yes
+Vorankam	norm=vorankommen	tense=praeteritum	person=13	number=sg
+Vorankamen	norm=vorankommen	tense=praeteritum	person=13	number=pl
+Vorangekommen	norm=vorankommen	tense=perfekt	person=1	number=sgpl
+Vorankäme	norm=vorankommen	mood=konjunktiv2	person=13	number=sg
+Vorankomm	norm=vorankommen	mood=imperativ	person=2	number=sg
+Voranzukommen	norm=vorankommen	infinitiv_zu=yes

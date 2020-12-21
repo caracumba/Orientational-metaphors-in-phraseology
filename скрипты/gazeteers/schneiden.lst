@@ -1,0 +1,25 @@
+schneide	norm=schneiden	tense=praesens	person=1	number=sg
+schneidest	norm=schneiden	tense=praesens	person=2	number=sg
+schneidet	norm=schneiden	tense=praesens	person=3	number=sg
+schneiden	norm=schneiden	tense=praesens	person=13	number=pl	infinitiv=yes
+schneidet	norm=schneiden	tense=praesens	person=2	number=pl
+schnitt	norm=schneiden	tense=praeteritum	person=13	number=sg
+schnittest	norm=schneiden	tense=praeteritum	person=12	number=sg
+schnitten	norm=schneiden	tense=praeteritum	person=13	number=pl
+schnittet	norm=schneiden	tense=praeteritum	person=2	number=pl
+geschnitten	norm=schneiden	tense=perfekt	person=1	number=sgpl
+schnitte	norm=schneiden	mood=konjunktiv2	person=13	number=sg
+schneid	norm=schneiden	mood=imperativ	person=2	number=sg
+
+Schneide	norm=schneiden	tense=praesens	person=1	number=sg
+Schneidest	norm=schneiden	tense=praesens	person=2	number=sg
+Schneidet	norm=schneiden	tense=praesens	person=3	number=sg
+Schneiden	norm=schneiden	tense=praesens	person=13	number=pl	infinitiv=yes
+Schneidet	norm=schneiden	tense=praesens	person=2	number=pl
+Schnitt	norm=schneiden	tense=praeteritum	person=13	number=sg
+Schnittest	norm=schneiden	tense=praeteritum	person=12	number=sg
+Schnitten	norm=schneiden	tense=praeteritum	person=13	number=pl
+Schnittet	norm=schneiden	tense=praeteritum	person=2	number=pl
+Geschnitten	norm=schneiden	tense=perfekt	person=1	number=sgpl
+Schnitte	norm=schneiden	mood=konjunktiv2	person=13	number=sg
+Schneid	norm=schneiden	mood=imperativ	person=2	number=sg

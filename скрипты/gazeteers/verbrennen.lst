@@ -1,0 +1,21 @@
+verbrenne	norm=verbrennen	tense=praesens	person=1	number=sg
+verbrennst	norm=verbrennen	tense=praesens	person=2	number=sg
+verbrennt	norm=verbrennen	tense=praesens	person=32	number=sgpl
+verbrennen	norm=verbrennen	tense=praesens	person=13	number=pl	infinitiv=yes
+verbrannte	norm=verbrennen	tense=praeteritum	person=13	number=sg
+verbranntest	norm=verbrennen	tense=praeteritum	person=12	number=sg
+verbrannten	norm=verbrennen	tense=praeteritum	person=13	number=pl
+verbranntet	norm=verbrennen	tense=praeteritum	person=2	number=pl
+verbrannt	norm=verbrennen	tense=perfekt	person=1	number=sgpl
+verbrenn	norm=verbrennen	mood=imperativ	person=2	number=sg
+
+Verbrenne	norm=verbrennen	tense=praesens	person=1	number=sg
+Verbrennst	norm=verbrennen	tense=praesens	person=2	number=sg
+Verbrennt	norm=verbrennen	tense=praesens	person=32	number=sgpl
+Verbrennen	norm=verbrennen	tense=praesens	person=13	number=pl	infinitiv=yes
+Verbrannte	norm=verbrennen	tense=praeteritum	person=13	number=sg
+Verbranntest	norm=verbrennen	tense=praeteritum	person=12	number=sg
+Verbrannten	norm=verbrennen	tense=praeteritum	person=13	number=pl
+Verbranntet	norm=verbrennen	tense=praeteritum	person=2	number=pl
+Verbrannt	norm=verbrennen	tense=perfekt	person=1	number=sgpl
+Verbrenn	norm=verbrennen	mood=imperativ	person=2	number=sg

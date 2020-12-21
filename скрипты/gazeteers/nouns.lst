@@ -1,0 +1,46 @@
+ABC	kas=NOM	num=SIN	gen=NEU	norm=ABC
+ABM	kas=NOM	num=SIN	gen=FEM	norm=ABM
+ABMs	kas=NOM	num=PLU	gen=FEM	norm=ABM
+ADAC	kas=NOM	num=SIN	gen=MAS	norm=ADAC
+ADACs	kas=GEN	num=SIN	gen=MAS	norm=ADAC
+AFP	kas=NOM	num=SIN	gen=FEM	norm=AFP
+AG	kas=NOM	num=SIN	gen=FEM	norm=AG
+AGs	kas=NOM	num=PLU	gen=FEM	norm=AG
+AKW	kas=NOM	num=SIN	gen=NEU	norm=AKW
+AKWs	kas=GEN	num=SIN	gen=NEU	norm=AKW
+AL	kas=NOM	num=SIN	gen=FEM	norm=AL
+AMA	kas=NOM	num=SIN	gen=FEM	norm=AMA
+ANC	kas=NOM	num=SIN	gen=MAS	norm=ANC
+AOK	kas=NOM	num=SIN	gen=FEM	norm=AOK
+ARD	kas=NOM	num=SIN	gen=FEM	norm=ARD
+AStA	kas=NOM	num=SIN	gen=MAS	norm=AStA
+AStAs	kas=GEN	num=SIN	gen=MAS	norm=AStA
+AWO	kas=NOM	num=SIN	gen=FEM	norm=AWO
+Aal	kas=NOM	num=SIN	gen=MAS	norm=Aal
+Aale	kas=DAT	num=SIN	gen=MAS	norm=Aal
+Aalen	kas=NOM	num=SIN	gen=NEU	der=INF	norm=Aalen
+Aalens	kas=GEN	num=SIN	gen=NEU	der=INF	norm=Aalen
+Aales	kas=GEN	num=SIN	gen=MAS	norm=Aal
+Aalquappe	kas=NOM	num=SIN	gen=FEM	norm=Aalquappe
+Aalquappen	kas=NOM	num=PLU	gen=FEM	norm=Aalquappe
+Aals	kas=GEN	num=SIN	gen=MAS	norm=Aal
+Abarbeiten	kas=NOM	num=SIN	gen=NEU	der=INF	norm=Abarbeiten
+Abarbeitens	kas=GEN	num=SIN	gen=NEU	der=INF	norm=Abarbeiten
+Abbalgen	kas=NOM	num=SIN	gen=NEU	der=INF	norm=Abbalgen
+Abbalgens	kas=GEN	num=SIN	gen=NEU	der=INF	norm=Abbalgen
+Abbau	kas=NOM	num=SIN	gen=MAS	norm=Abbau
+Abbauen	kas=NOM	num=SIN	gen=NEU	der=INF	norm=Abbauen
+Abbauens	kas=GEN	num=SIN	gen=NEU	der=INF	norm=Abbauen
+Abbaus	kas=GEN	num=SIN	gen=MAS	norm=Abbau
+Abbauten	kas=NOM	num=PLU	gen=MAS	norm=Abbau
+Abbehalten	kas=NOM	num=SIN	gen=NEU	der=INF	norm=Abbehalten
+Abbehaltens	kas=GEN	num=SIN	gen=NEU	der=INF	norm=Abbehalten
+Abbeizen	kas=NOM	num=SIN	gen=NEU	der=INF	norm=Abbeizen
+Abbeizens	kas=GEN	num=SIN	gen=NEU	der=INF	norm=Abbeizen
+Abbeißen	kas=NOM	num=SIN	gen=NEU	der=INF	norm=Abbeißen
+Abbeißens	kas=GEN	num=SIN	gen=NEU	der=INF	norm=Abbeißen
+Abbekommen	kas=NOM	num=SIN	gen=NEU	der=INF	norm=Abbekommen
+Abbekommens	kas=GEN	num=SIN	gen=NEU	der=INF	norm=Abbekommen
+Abberufen	kas=NOM	num=SIN	gen=NEU	der=INF	norm=Abberufen
+Abberufens	kas=GEN	num=SIN	gen=NEU	der=INF	norm=Abberufen
+Abbestellen	kas=NOM	num=SIN	gen=NEU	der=INF	norm=Abbestellen

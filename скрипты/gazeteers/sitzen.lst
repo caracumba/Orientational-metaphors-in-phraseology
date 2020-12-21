@@ -1,0 +1,37 @@
+sitze	norm=sitzen	tense=praesens	person=1	number=sg
+sitzt	norm=sitzen	tense=praesens	person=2	number=sg
+sitzt	norm=sitzen	tense=praesens	person=3	number=sgpl
+sitzen	norm=sitzen	tense=praesens	person=13	number=pl	infinitiv=yes
+saß	norm=sitzen	tense=praeteritum	person=13	number=sg
+saßest	norm=sitzen	tense=praeteritum	person=12	number=sg
+saßen	norm=sitzen	tense=praeteritum	person=13	number=pl
+saßet	norm=sitzen	tense=praeteritum	person=2	number=pl
+gesessen	norm=sitzen	tense=perfekt	person=1	number=sgpl
+säße	norm=sitzen	mood=konjunktiv2	person=13	number=sg
+sitz	norm=sitzen	mood=imperativ	person=2	number=sg
+
+sass	norm=sitzen	tense=praeteritum	person=13	number=sg
+sassest	norm=sitzen	tense=praeteritum	person=12	number=sg
+sassen	norm=sitzen	tense=praeteritum	person=13	number=pl
+sasset	norm=sitzen	tense=praeteritum	person=2	number=pl
+gesessen	norm=sitzen	tense=perfekt	person=1	number=sgpl
+sässe	norm=sitzen	mood=konjunktiv2	person=13	number=sg
+
+Sitze	norm=sitzen	tense=praesens	person=1	number=sg
+Sitzt	norm=sitzen	tense=praesens	person=2	number=sg
+Sitzt	norm=sitzen	tense=praesens	person=3	number=sgpl
+Sitzen	norm=sitzen	tense=praesens	person=13	number=pl	infinitiv=yes
+Saß	norm=sitzen	tense=praeteritum	person=13	number=sg
+Saßest	norm=sitzen	tense=praeteritum	person=12	number=sg
+Saßen	norm=sitzen	tense=praeteritum	person=13	number=pl
+Saßet	norm=sitzen	tense=praeteritum	person=2	number=pl
+Gesessen	norm=sitzen	tense=perfekt	person=1	number=sgpl
+Säße	norm=sitzen	mood=konjunktiv2	person=13	number=sg
+Sitz	norm=sitzen	mood=imperativ	person=2	number=sg
+
+Sass	norm=sitzen	tense=praeteritum	person=13	number=sg
+Sassest	norm=sitzen	tense=praeteritum	person=12	number=sg
+Sassen	norm=sitzen	tense=praeteritum	person=13	number=pl
+Sasset	norm=sitzen	tense=praeteritum	person=2	number=pl
+Gesessen	norm=sitzen	tense=perfekt	person=1	number=sgpl
+Sässe	norm=sitzen	mood=konjunktiv2	person=13	number=sg

@@ -1,0 +1,21 @@
+spiele	norm=spielen	tense=praesens	person=1	number=sg
+spielst	norm=spielen	tense=praesens	person=2	number=sg
+spielt	norm=spielen	tense=praesens	person=32	number=sgpl
+spielen	norm=spielen	tense=praesens	person=13	number=pl	infinitiv=yes
+spielte	norm=spielen	tense=praeteritum	person=13	number=sg
+spieltest	norm=spielen	tense=praeteritum	person=2	number=sg
+spielten	norm=spielen	tense=praeteritum	person=13	number=pl
+spieltet	norm=spielen	tense=praeteritum	person=2	number=pl
+gespielt	norm=spielen	tense=perfekt	person=1	number=sgpl
+spiel	norm=spielen	mood=imperativ	person=2	number=sg
+
+Spiele	norm=spielen	tense=praesens	person=1	number=sg
+Spielst	norm=spielen	tense=praesens	person=2	number=sg
+Spielt	norm=spielen	tense=praesens	person=32	number=sgpl
+Spielen	norm=spielen	tense=praesens	person=13	number=pl	infinitiv=yes
+Spielte	norm=spielen	tense=praeteritum	person=13	number=sg
+Spieltest	norm=spielen	tense=praeteritum	person=2	number=sg
+Spielten	norm=spielen	tense=praeteritum	person=13	number=pl
+Spieltet	norm=spielen	tense=praeteritum	person=2	number=pl
+Gespielt	norm=spielen	tense=perfekt	person=1	number=sgpl
+Spiel	norm=spielen	mood=imperativ	person=2	number=sg

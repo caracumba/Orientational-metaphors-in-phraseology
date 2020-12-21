@@ -1,0 +1,21 @@
+haue	norm=hauen	tense=praesens	person=1	number=sg
+haust	norm=hauen	tense=praesens	person=2	number=sg
+haut	norm=hauen	tense=praesens	person=32	number=sgpl
+hauen	norm=hauen	tense=praesens	person=13	number=pl	infinitiv=yes
+haute	norm=hauen	tense=praeteritum	person=13	number=sg
+hautest	norm=hauen	tense=praeteritum	person=2	number=sg
+hauten	norm=hauen	tense=praeteritum	person=13	number=pl
+hautet	norm=hauen	tense=praeteritum	person=2	number=pl
+gehaut	norm=hauen	tense=perfekt	person=1	number=sgpl
+hau	norm=hauen	mood=imperativ	person=2	number=sg
+
+Haue	norm=hauen	tense=praesens	person=1	number=sg
+Haust	norm=hauen	tense=praesens	person=2	number=sg
+Haut	norm=hauen	tense=praesens	person=32	number=sgpl
+Hauen	norm=hauen	tense=praesens	person=13	number=pl	infinitiv=yes
+Haute	norm=hauen	tense=praeteritum	person=13	number=sg
+Hautest	norm=hauen	tense=praeteritum	person=2	number=sg
+Hauten	norm=hauen	tense=praeteritum	person=13	number=pl
+Hautet	norm=hauen	tense=praeteritum	person=2	number=pl
+Gehaut	norm=hauen	tense=perfekt	person=1	number=sgpl
+Hau	norm=hauen	mood=imperativ	person=2	number=sg

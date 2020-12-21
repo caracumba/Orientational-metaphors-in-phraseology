@@ -1,0 +1,41 @@
+gebe	norm=geben	tense=praesens	person=1	number=sg
+gibst	norm=geben	tense=praesens	person=2	number=sg
+gibt	norm=geben	tense=praesens	person=3	number=sg
+geben	norm=geben	tense=praesens	person=13	number=pl	infinitiv=yes
+gebt	norm=geben	tense=praesens	person=2	number=pl
+gab	norm=geben	tense=praeteritum	person=13	number=sg
+gabst	norm=geben	tense=praeteritum	person=12	number=sg
+gaben	norm=geben	tense=praeteritum	person=13	number=pl
+gabt	norm=geben	tense=praeteritum	person=2	number=pl
+gegeben	norm=geben	tense=perfekt	person=1	number=sgpl
+gäbe	norm=geben	mood=konjunktiv2	person=13	number=sg
+gäben	norm=geben	mood=konjunktiv2	person=13	number=pl
+gib	norm=geben	mood=imperativ	person=2	number=sg
+
+Gebe	norm=geben	tense=praesens	person=1	number=sg
+Gibst	norm=geben	tense=praesens	person=2	number=sg
+Gibt	norm=geben	tense=praesens	person=3	number=sg
+Geben	norm=geben	tense=praesens	person=13	number=pl	infinitiv=yes
+Gebt	norm=geben	tense=praesens	person=2	number=pl
+Gab	norm=geben	tense=praeteritum	person=13	number=sg
+Gabst	norm=geben	tense=praeteritum	person=12	number=sg
+Gaben	norm=geben	tense=praeteritum	person=13	number=pl
+Gabt	norm=geben	tense=praeteritum	person=2	number=pl
+Gegeben	norm=geben	tense=perfekt	person=1	number=sgpl
+Gäbe	norm=geben	mood=konjunktiv2	person=13	number=sg
+Gäben	norm=geben	mood=konjunktiv2	person=13	number=pl
+Gib	norm=geben	mood=imperativ	person=2	number=sg
+
+aufgebe	norm=aufgeben	tense=praesens	person=1	number=sg
+aufgibst	norm=aufgeben	tense=praesens	person=2	number=sg
+aufgibt	norm=aufgeben	tense=praesens	person=3	number=sg
+aufgeben	norm=aufgeben	tense=praesens	person=13	number=pl	infinitiv=yes
+aufgebt	norm=aufgeben	tense=praesens	person=2	number=pl
+aufgab	norm=aufgeben	tense=praeteritum	person=13	number=sg
+aufgabst	norm=aufgeben	tense=praeteritum	person=12	number=sg
+aufgaben	norm=aufgeben	tense=praeteritum	person=13	number=pl
+aufgabt	norm=aufgeben	tense=praeteritum	person=2	number=pl
+aufgegeben	norm=aufgeben	tense=perfekt	person=1	number=sgpl
+aufgäbe	norm=aufgeben	mood=konjunktiv2	person=13	number=sg
+aufgäben	norm=aufgeben	mood=konjunktiv2	person=13	number=pl
+aufzugeben	norm=aufgeben	tense=perfekt	person=1	number=sgpl infinitiv_zu=yes

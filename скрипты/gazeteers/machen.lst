@@ -1,0 +1,21 @@
+mache	norm=machen	tense=praesens	person=1	number=sg
+machst	norm=machen	tense=praesens	person=2	number=sg
+macht	norm=machen	tense=praesens	person=32	number=sgpl
+machen	norm=machen	tense=praesens	person=13	number=pl	infinitiv=yes
+machte	norm=machen	tense=praeteritum	person=13	number=sg
+machtest	norm=machen	tense=praeteritum	person=2	number=sg
+machten	norm=machen	tense=praeteritum	person=13	number=pl
+machtet	norm=machen	tense=praeteritum	person=2	number=pl
+gemacht	norm=machen	tense=perfekt	person=1	number=sgpl
+mach	norm=machen	mood=imperativ	person=2	number=sg
+
+Mache	norm=machen	tense=praesens	person=1	number=sg
+Machst	norm=machen	tense=praesens	person=2	number=sg
+Macht	norm=machen	tense=praesens	person=32	number=sgpl
+Machen	norm=machen	tense=praesens	person=13	number=pl	infinitiv=yes
+Machte	norm=machen	tense=praeteritum	person=13	number=sg
+Machtest	norm=machen	tense=praeteritum	person=2	number=sg
+Machten	norm=machen	tense=praeteritum	person=13	number=pl
+Machtet	norm=machen	tense=praeteritum	person=2	number=pl
+Gemacht	norm=machen	tense=perfekt	person=1	number=sgpl
+Mach	norm=machen	mood=imperativ	person=2	number=sg

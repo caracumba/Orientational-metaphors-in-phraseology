@@ -1,0 +1,31 @@
+habe	norm=haben	tense=praesens	person=1	number=sg
+hast	norm=haben	tense=praesens	person=2	number=sg
+hat	norm=haben	tense=praesens	person=3	number=sg
+haben	norm=haben	tense=praesens	person=13	number=pl
+habt	norm=haben	tense=praesens	person=2	number=pl
+hatte	norm=haben	tense=praeteritum	person=13	number=sg
+hatten	norm=haben	tense=praeteritum	person=13	number=pl
+gehabt	norm=haben	tense=perfekt	person=1	number=sgpl
+
+hätte	norm=haben	mood=konjunktiv2	person=13	number=sg
+hätten	norm=haben	mood=konjunktiv2	person=13	number=pl
+hättest	norm=haben	mood=konjunktiv2	person=2	number=sg
+hättet	norm=haben	mood=konjunktiv2	person=2	number=pl
+
+habest	norm=haben	mood=konjunktiv1	person=2	number=sg
+
+Habe	norm=haben	tense=praesens	person=1	number=sg
+Hast	norm=haben	tense=praesens	person=2	number=sg
+Hat	norm=haben	tense=praesens	person=3	number=sg
+Haben	norm=haben	tense=praesens	person=13	number=pl
+Habt	norm=haben	tense=praesens	person=2	number=pl
+Hatte	norm=haben	tense=praeteritum	person=13	number=sg
+Hatten	norm=haben	tense=praeteritum	person=13	number=pl
+Gehabt	norm=haben	tense=perfekt	person=1	number=sgpl
+
+Hätte	norm=haben	mood=konjunktiv2	person=13	number=sg
+Hätten	norm=haben	mood=konjunktiv2	person=13	number=pl
+Hättest	norm=haben	mood=konjunktiv2	person=2	number=sg
+Hättet	norm=haben	mood=konjunktiv2	person=2	number=pl
+
+Habest	norm=haben	mood=konjunktiv1	person=2	number=sg

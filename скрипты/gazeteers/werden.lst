@@ -1,0 +1,19 @@
+werde	norm=werden	tense=praesens	person=1	number=sg
+wirst	norm=werden	tense=praesens	person=2	number=sg
+wird	norm=werden	tense=praesens	person=3	number=sg
+werden	norm=werden	tense=praesens	person=13	number=pl
+werdet	norm=werden	tense=praesens	person=2	number=pl
+wurde	norm=werden	tense=praeteritum	person=13	number=sg
+wurden	norm=werden	tense=praeteritum	person=13	number=pl
+geworden	norm=werden	tense=perfekt	person=1	number=sgpl
+worden	norm=werden	tense=perfekt	person=1	number=sgpl
+
+Werde	norm=werden	tense=praesens	person=1	number=sg
+Wirst	norm=werden	tense=praesens	person=2	number=sg
+Wird	norm=werden	tense=praesens	person=3	number=sg
+Werden	norm=werden	tense=praesens	person=13	number=pl
+Werdet	norm=werden	tense=praesens	person=2	number=pl
+Wurde	norm=werden	tense=praeteritum	person=13	number=sg
+Wurden	norm=werden	tense=praeteritum	person=13	number=pl
+Geworden	norm=werden	tense=perfekt	person=1	number=sgpl
+Worden	norm=werden	tense=perfekt	person=1	number=sgpl

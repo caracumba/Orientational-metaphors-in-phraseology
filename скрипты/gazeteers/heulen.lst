@@ -1,0 +1,21 @@
+heule	norm=heulen	tense=praesens	person=1	number=sg
+heulst	norm=heulen	tense=praesens	person=2	number=sg
+heult	norm=heulen	tense=praesens	person=32	number=sgpl
+heulen	norm=heulen	tense=praesens	person=13	number=pl	infinitiv=yes
+heulte	norm=heulen	tense=praeteritum	person=13	number=sg
+heultest	norm=heulen	tense=praeteritum	person=2	number=sg
+heulten	norm=heulen	tense=praeteritum	person=13	number=pl
+heultet	norm=heulen	tense=praeteritum	person=2	number=pl
+geheult	norm=heulen	tense=perfekt	person=1	number=sgpl
+heul	norm=heulen	mood=imperativ	person=2	number=sg
+
+Heule	norm=heulen	tense=praesens	person=1	number=sg
+Heulst	norm=heulen	tense=praesens	person=2	number=sg
+Heult	norm=heulen	tense=praesens	person=32	number=sgpl
+Heulen	norm=heulen	tense=praesens	person=13	number=pl	infinitiv=yes
+Heulte	norm=heulen	tense=praeteritum	person=13	number=sg
+Heultest	norm=heulen	tense=praeteritum	person=2	number=sg
+Heulten	norm=heulen	tense=praeteritum	person=13	number=pl
+Heultet	norm=heulen	tense=praeteritum	person=2	number=pl
+Geheult	norm=heulen	tense=perfekt	person=1	number=sgpl
+Heul	norm=heulen	mood=imperativ	person=2	number=sg

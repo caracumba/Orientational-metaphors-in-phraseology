@@ -1,0 +1,21 @@
+verschlechtere	norm=verschlechtern	tense=praesens	person=1	number=sg
+verschlechterst	norm=verschlechtern	tense=praesens	person=2	number=sg
+verschlechtert	norm=verschlechtern	tense=praesens	person=32	number=sgpl
+verschlechtern	norm=verschlechtern	tense=praesens	person=13	number=pl	infinitiv=yes
+verschlechterte	norm=verschlechtern	tense=praeteritum	person=13	number=sg
+verschlechtertest	norm=verschlechtern	tense=praeteritum	person=2	number=sg
+verschlechterten	norm=verschlechtern	tense=praeteritum	person=13	number=pl
+verschlechtertet	norm=verschlechtern	tense=praeteritum	person=2	number=pl
+verschlechtert	norm=verschlechtern	tense=perfekt	person=1	number=sgpl
+verschlechtere	norm=verschlechtern	mood=imperativ	person=2	number=sg
+
+Verschlechtere	norm=verschlechtern	tense=praesens	person=1	number=sg
+Verschlechterst	norm=verschlechtern	tense=praesens	person=2	number=sg
+Verschlechtert	norm=verschlechtern	tense=praesens	person=32	number=sgpl
+Verschlechtern	norm=verschlechtern	tense=praesens	person=13	number=pl	infinitiv=yes
+Verschlechterte	norm=verschlechtern	tense=praeteritum	person=13	number=sg
+Verschlechtertest	norm=verschlechtern	tense=praeteritum	person=2	number=sg
+Verschlechterten	norm=verschlechtern	tense=praeteritum	person=13	number=pl
+Verschlechtertet	norm=verschlechtern	tense=praeteritum	person=2	number=pl
+Verschlechtert	norm=verschlechtern	tense=perfekt	person=1	number=sgpl
+Verschlechtere	norm=verschlechtern	mood=imperativ	person=2	number=sg

@@ -1,0 +1,21 @@
+überlege	norm=überlegen	tense=praesens	person=1	number=sg
+überlegst	norm=überlegen	tense=praesens	person=2	number=sg
+überlegt	norm=überlegen	tense=praesens	person=32	number=sgpl
+überlegen	norm=überlegen	tense=praesens	person=13	number=pl	infinitiv=yes
+überlegte	norm=überlegen	tense=praeteritum	person=13	number=sg
+überlegtest	norm=überlegen	tense=praeteritum	person=2	number=sg
+überlegten	norm=überlegen	tense=praeteritum	person=13	number=pl
+überlegtet	norm=überlegen	tense=praeteritum	person=2	number=pl
+überlegt	norm=überlegen	tense=perfekt	person=1	number=sgpl
+überleg	norm=überlegen	mood=imperativ	person=2	number=sg
+
+Überlege	norm=überlegen	tense=praesens	person=1	number=sg
+Überlegst	norm=überlegen	tense=praesens	person=2	number=sg
+Überlegt	norm=überlegen	tense=praesens	person=32	number=sgpl
+Überlegen	norm=überlegen	tense=praesens	person=13	number=pl	infinitiv=yes
+Überlegte	norm=überlegen	tense=praeteritum	person=13	number=sg
+Überlegtest	norm=überlegen	tense=praeteritum	person=2	number=sg
+Überlegten	norm=überlegen	tense=praeteritum	person=13	number=pl
+Überlegtet	norm=überlegen	tense=praeteritum	person=2	number=pl
+Überlegt	norm=überlegen	tense=perfekt	person=1	number=sgpl
+Überleg	norm=überlegen	mood=imperativ	person=2	number=sg

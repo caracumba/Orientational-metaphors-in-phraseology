@@ -1,0 +1,23 @@
+will	norm=wollen	tense=praesens	person=13	number=sg
+willst	norm=wollen	tense=praesens	person=2	number=sg
+wollen	norm=wollen	tense=praesens	person=13	number=pl	infinitiv=yes
+wollt	norm=wollen	tense=praesens	person=2	number=pl
+wollte	norm=wollen	tense=praeteritum	person=13	number=sg
+wolltest	norm=wollen	tense=praeteritum	person=2	number=sg
+wollten	norm=wollen	tense=praeteritum	person=13	number=pl
+wolltet	norm=wollen	tense=praeteritum	person=2	number=pl
+gewollt	norm=wollen	tense=perfekt	number=sgpl
+
+wolle	norm=wollen	mood=konjunktiv1	person=13	number=sg
+
+Will	norm=wollen	tense=praesens	person=13	number=sg
+Willst	norm=wollen	tense=praesens	person=2	number=sg
+Wollen	norm=wollen	tense=praesens	person=13	number=pl	infinitiv=yes
+Wollt	norm=wollen	tense=praesens	person=2	number=pl
+Wollte	norm=wollen	tense=praeteritum	person=13	number=sg
+Wolltest	norm=wollen	tense=praeteritum	person=2	number=sg
+Wollten	norm=wollen	tense=praeteritum	person=13	number=pl
+Wolltet	norm=wollen	tense=praeteritum	person=2	number=pl
+Gewollt	norm=wollen	tense=perfekt	number=sgpl
+
+Wolle	norm=wollen	mood=konjunktiv1	person=13	number=sg

@@ -1,0 +1,21 @@
+raufe	norm=raufen	tense=praesens	person=1	number=sg
+raufst	norm=raufen	tense=praesens	person=2	number=sg
+rauft	norm=raufen	tense=praesens	person=32	number=sgpl
+raufen	norm=raufen	tense=praesens	person=13	number=pl	infinitiv=yes
+raufte	norm=raufen	tense=praeteritum	person=13	number=sg
+rauftest	norm=raufen	tense=praeteritum	person=2	number=sg
+rauften	norm=raufen	tense=praeteritum	person=13	number=pl
+rauftet	norm=raufen	tense=praeteritum	person=2	number=pl
+gerauft	norm=raufen	tense=perfekt	person=1	number=sgpl
+rauf	norm=raufen	mood=imperativ	person=2	number=sg
+
+Raufe	norm=raufen	tense=praesens	person=1	number=sg
+Raufst	norm=raufen	tense=praesens	person=2	number=sg
+Rauft	norm=raufen	tense=praesens	person=32	number=sgpl
+Raufen	norm=raufen	tense=praesens	person=13	number=pl	infinitiv=yes
+Raufte	norm=raufen	tense=praeteritum	person=13	number=sg
+Rauftest	norm=raufen	tense=praeteritum	person=2	number=sg
+Rauften	norm=raufen	tense=praeteritum	person=13	number=pl
+Rauftet	norm=raufen	tense=praeteritum	person=2	number=pl
+Gerauft	norm=raufen	tense=perfekt	person=1	number=sgpl
+Rauf	norm=raufen	mood=imperativ	person=2	number=sg

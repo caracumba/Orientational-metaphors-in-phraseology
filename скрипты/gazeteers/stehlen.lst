@@ -1,0 +1,27 @@
+stehle	norm=stehlen	tense=praesens	person=1	number=sg
+stiehlst	norm=stehlen	tense=praesens	person=2	number=sg
+stiehlt	norm=stehlen	tense=praesens	person=3	number=sg
+stehlen	norm=stehlen	tense=praesens	person=13	number=pl	infinitiv=yes
+stehlt	norm=stehlen	tense=praesens	person=2	number=pl
+stahl	norm=stehlen	tense=praeteritum	person=13	number=sg
+stahlst	norm=stehlen	tense=praeteritum	person=12	number=sg
+stahlen	norm=stehlen	tense=praeteritum	person=13	number=pl
+stahlt	norm=stehlen	tense=praeteritum	person=2	number=pl
+gestohlen	norm=stehlen	tense=perfekt	person=1	number=sgpl
+stähle	norm=stehlen	mood=konjunktiv2	person=13	number=sg
+stählen	norm=stehlen	mood=konjunktiv2	person=13	number=pl
+stiehl	norm=stehlen	mood=imperativ	person=2	number=sg
+
+Stehle	norm=stehlen	tense=praesens	person=1	number=sg
+Stiehlst	norm=stehlen	tense=praesens	person=2	number=sg
+Stiehlt	norm=stehlen	tense=praesens	person=3	number=sg
+Stehlen	norm=stehlen	tense=praesens	person=13	number=pl	infinitiv=yes
+Stehlt	norm=stehlen	tense=praesens	person=2	number=pl
+Stahl	norm=stehlen	tense=praeteritum	person=13	number=sg
+Stahlst	norm=stehlen	tense=praeteritum	person=12	number=sg
+Stahlen	norm=stehlen	tense=praeteritum	person=13	number=pl
+Stahlt	norm=stehlen	tense=praeteritum	person=2	number=pl
+Gestohlen	norm=stehlen	tense=perfekt	person=1	number=sgpl
+Stähle	norm=stehlen	mood=konjunktiv2	person=13	number=sg
+Stählen	norm=stehlen	mood=konjunktiv2	person=13	number=pl
+Stiehl	norm=stehlen	mood=imperativ	person=2	number=sg

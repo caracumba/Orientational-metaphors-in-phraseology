@@ -1,0 +1,21 @@
+führe	norm=führen	tense=praesens	person=1	number=sg
+führst	norm=führen	tense=praesens	person=2	number=sg
+führt	norm=führen	tense=praesens	person=32	number=sgpl
+führen	norm=führen	tense=praesens	person=13	number=pl	infinitiv=yes
+führte	norm=führen	tense=praeteritum	person=13	number=sg
+führtest	norm=führen	tense=praeteritum	person=2	number=sg
+führten	norm=führen	tense=praeteritum	person=13	number=pl
+führtet	norm=führen	tense=praeteritum	person=2	number=pl
+geführt	norm=führen	tense=perfekt	person=1	number=sgpl
+führ	norm=führen	mood=imperativ	person=2	number=sg
+
+Führe	norm=führen	tense=praesens	person=1	number=sg
+Führst	norm=führen	tense=praesens	person=2	number=sg
+Führt	norm=führen	tense=praesens	person=32	number=sgpl
+Führen	norm=führen	tense=praesens	person=13	number=pl	infinitiv=yes
+Führte	norm=führen	tense=praeteritum	person=13	number=sg
+Führtest	norm=führen	tense=praeteritum	person=2	number=sg
+Führten	norm=führen	tense=praeteritum	person=13	number=pl
+Führtet	norm=führen	tense=praeteritum	person=2	number=pl
+Geführt	norm=führen	tense=perfekt	person=1	number=sgpl
+Führ	norm=führen	mood=imperativ	person=2	number=sg

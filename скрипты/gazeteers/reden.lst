@@ -1,0 +1,21 @@
+rede	norm=reden	tense=praesens	person=1	number=sg
+redest	norm=reden	tense=praesens	person=2	number=sg
+redet	norm=reden	tense=praesens	person=32	number=sgpl
+reden	norm=reden	tense=praesens	person=13	number=pl	infinitiv=yes
+redete	norm=reden	tense=praeteritum	person=13	number=sg
+redetest	norm=reden	tense=praeteritum	person=2	number=sg
+redeten	norm=reden	tense=praeteritum	person=13	number=pl
+redetet	norm=reden	tense=praeteritum	person=2	number=pl
+geredet	norm=reden	tense=perfekt	person=1	number=sgpl
+red	norm=reden	mood=imperativ	person=2	number=sg
+
+Rede	norm=reden	tense=praesens	person=1	number=sg
+Redest	norm=reden	tense=praesens	person=2	number=sg
+Redet	norm=reden	tense=praesens	person=32	number=sgpl
+Reden	norm=reden	tense=praesens	person=13	number=pl	infinitiv=yes
+Redete	norm=reden	tense=praeteritum	person=13	number=sg
+Redetest	norm=reden	tense=praeteritum	person=2	number=sg
+Redeten	norm=reden	tense=praeteritum	person=13	number=pl
+Redetet	norm=reden	tense=praeteritum	person=2	number=pl
+Geredet	norm=reden	tense=perfekt	person=1	number=sgpl
+Red	norm=reden	mood=imperativ	person=2	number=sg

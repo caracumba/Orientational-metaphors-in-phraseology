@@ -1,0 +1,23 @@
+greife	norm=greifen	tense=praesens	person=1	number=sg
+greifst	norm=greifen	tense=praesens	person=2	number=sg
+greift	norm=greifen	tense=praesens	person=32	number=sgpl
+greifen	norm=greifen	tense=praesens	person=13	number=pl	infinitiv=yes
+griff	norm=greifen	tense=praeteritum	person=13	number=sg
+griffst	norm=greifen	tense=praeteritum	person=2	number=sg
+griffen	norm=greifen	tense=praeteritum	person=13	number=pl
+griffet	norm=greifen	tense=praeteritum	person=2	number=pl
+gegriffen	norm=greifen	tense=perfekt	person=1	number=sgpl
+griffe	norm=greifen	mood=konjunktiv2	person=13	number=sg
+greif	norm=greifen	mood=imperativ	person=2	number=sg
+
+Greife	norm=greifen	tense=praesens	person=1	number=sg
+Greifst	norm=greifen	tense=praesens	person=2	number=sg
+Greift	norm=greifen	tense=praesens	person=32	number=sgpl
+Greifen	norm=greifen	tense=praesens	person=13	number=pl	infinitiv=yes
+Griff	norm=greifen	tense=praeteritum	person=13	number=sg
+Griffst	norm=greifen	tense=praeteritum	person=2	number=sg
+Griffen	norm=greifen	tense=praeteritum	person=13	number=pl
+Griffet	norm=greifen	tense=praeteritum	person=2	number=pl
+Gegriffen	norm=greifen	tense=perfekt	person=1	number=sgpl
+Griffe	norm=greifen	mood=konjunktiv2	person=13	number=sg
+Greif	norm=greifen	mood=imperativ	person=2	number=sg

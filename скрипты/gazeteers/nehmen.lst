@@ -1,0 +1,27 @@
+nehme	norm=nehmen	tense=praesens	person=1	number=sg
+nimmst	norm=nehmen	tense=praesens	person=2	number=sg
+nimmt	norm=nehmen	tense=praesens	person=3	number=sg
+nehmen	norm=nehmen	tense=praesens	person=13	number=pl	infinitiv=yes
+nehmt	norm=nehmen	tense=praesens	person=2	number=pl
+nahm	norm=nehmen	tense=praeteritum	person=13	number=sg
+nahmst	norm=nehmen	tense=praeteritum	person=12	number=sg
+nahmen	norm=nehmen	tense=praeteritum	person=13	number=pl
+nahmt	norm=nehmen	tense=praeteritum	person=2	number=pl
+genommen	norm=nehmen	tense=perfekt	person=1	number=sgpl
+nähme	norm=nehmen	mood=konjunktiv2	person=13	number=sg
+nähmen	norm=nehmen	mood=konjunktiv2	person=13	number=pl
+nimm	norm=nehmen	mood=imperativ	person=2	number=sg
+
+Nehme	norm=nehmen	tense=praesens	person=1	number=sg
+Nimmst	norm=nehmen	tense=praesens	person=2	number=sg
+Nimmt	norm=nehmen	tense=praesens	person=3	number=sg
+Nehmen	norm=nehmen	tense=praesens	person=13	number=pl	infinitiv=yes
+Nehmt	norm=nehmen	tense=praesens	person=2	number=pl
+Nahm	norm=nehmen	tense=praeteritum	person=13	number=sg
+Nahmst	norm=nehmen	tense=praeteritum	person=12	number=sg
+Nahmen	norm=nehmen	tense=praeteritum	person=13	number=pl
+Nahmt	norm=nehmen	tense=praeteritum	person=2	number=pl
+Genommen	norm=nehmen	tense=perfekt	person=1	number=sgpl
+Nähme	norm=nehmen	mood=konjunktiv2	person=13	number=sg
+Nähmen	norm=nehmen	mood=konjunktiv2	person=13	number=pl
+Nimm	norm=nehmen	mood=imperativ	person=2	number=sg

@@ -1,0 +1,27 @@
+verliere	norm=verlieren	tense=praesens	person=1	number=sg
+verlierst	norm=verlieren	tense=praesens	person=2	number=sg
+verliert	norm=verlieren	tense=praesens	person=3	number=sg
+verlieren	norm=verlieren	tense=praesens	person=13	number=pl	infinitiv=yes
+verliert	norm=verlieren	tense=praesens	person=2	number=pl
+verlor	norm=verlieren	tense=praeteritum	person=13	number=sg
+verlorst	norm=verlieren	tense=praeteritum	person=12	number=sg
+verloren	norm=verlieren	tense=praeteritum	person=13	number=pl
+verlort	norm=verlieren	tense=praeteritum	person=2	number=pl
+verloren	norm=verlieren	tense=perfekt	person=1	number=sgpl
+verlöre	norm=verlieren	mood=konjunktiv2	person=13	number=sg
+verlöre	norm=verlieren	mood=konjunktiv2	person=13	number=pl
+verlier	norm=verlieren	mood=imperativ	person=2	number=sg
+
+Verliere	norm=verlieren	tense=praesens	person=1	number=sg
+Verlierst	norm=verlieren	tense=praesens	person=2	number=sg
+Verliert	norm=verlieren	tense=praesens	person=3	number=sg
+Verlieren	norm=verlieren	tense=praesens	person=13	number=pl	infinitiv=yes
+Verliert	norm=verlieren	tense=praesens	person=2	number=pl
+Verlor	norm=verlieren	tense=praeteritum	person=13	number=sg
+Verlorst	norm=verlieren	tense=praeteritum	person=12	number=sg
+Verloren	norm=verlieren	tense=praeteritum	person=13	number=pl
+Verlort	norm=verlieren	tense=praeteritum	person=2	number=pl
+Verloren	norm=verlieren	tense=perfekt	person=1	number=sgpl
+Verlöre	norm=verlieren	mood=konjunktiv2	person=13	number=sg
+Verlöre	norm=verlieren	mood=konjunktiv2	person=13	number=pl
+Verlier	norm=verlieren	mood=imperativ	person=2	number=sg

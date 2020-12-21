@@ -1,0 +1,33 @@
+mag	norm=mögen	tense=praesens	person=13	number=sg
+magst	norm=mögen	tense=praesens	person=2	number=sg
+mögen	norm=mögen	tense=praesens	person=13	number=pl	infinitiv=yes
+mögt	norm=mögen	tense=praesens	person=2	number=pl
+mochte	norm=mögen	tense=praeteritum	person=13	number=sg
+mochtest	norm=mögen	tense=praeteritum	person=2	number=sg
+mochten	norm=mögen	tense=praeteritum	person=13	number=pl
+mochtet	norm=mögen	tense=praeteritum	person=2	number=pl
+gemocht	norm=mögen	tense=perfekt	number=sgpl
+
+möge	norm=mögen	mood=konjunktiv1	person=13	number=sg
+
+möchte	norm=mögen	mood=konjunktiv2	person=13	number=sg
+möchtest	norm=mögen	mood=konjunktiv2	person=2	number=sg
+möchten	norm=mögen	mood=konjunktiv2	person=13	number=pl
+möchtet	norm=mögen	mood=konjunktiv2	person=2	number=pl
+
+Mag	norm=mögen	tense=praesens	person=13	number=sg
+Magst	norm=mögen	tense=praesens	person=2	number=sg
+Mögen	norm=mögen	tense=praesens	person=13	number=pl	infinitiv=yes
+Mögt	norm=mögen	tense=praesens	person=2	number=pl
+Mochte	norm=mögen	tense=praeteritum	person=13	number=sg
+Mochtest	norm=mögen	tense=praeteritum	person=2	number=sg
+Mochten	norm=mögen	tense=praeteritum	person=13	number=pl
+Mochtet	norm=mögen	tense=praeteritum	person=2	number=pl
+Gemocht	norm=mögen	tense=perfekt	number=sgpl
+
+Möge	norm=mögen	mood=konjunktiv1	person=13	number=sg
+
+Möchte	norm=mögen	mood=konjunktiv2	person=13	number=sg
+Möchtest	norm=mögen	mood=konjunktiv2	person=2	number=sg
+Möchten	norm=mögen	mood=konjunktiv2	person=13	number=pl
+Möchtet	norm=mögen	mood=konjunktiv2	person=2	number=pl

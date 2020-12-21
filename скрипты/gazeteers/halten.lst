@@ -1,0 +1,25 @@
+halte	norm=halten	tense=praesens	person=1	number=sg
+hältst	norm=halten	tense=praesens	person=2	number=sg
+hält	norm=halten	tense=praesens	person=3	number=sg
+halten	norm=halten	tense=praesens	person=13	number=pl	infinitiv=yes
+haltet	norm=halten	tense=praesens	person=2	number=pl
+hielt	norm=halten	tense=praeteritum	person=13	number=sg
+hieltest	norm=halten	tense=praeteritum	person=12	number=sg
+hielten	norm=halten	tense=praeteritum	person=13	number=pl
+hieltet	norm=halten	tense=praeteritum	person=2	number=pl
+gehalten	norm=halten	tense=perfekt	person=1	number=sgpl
+hielte	norm=halten	mood=konjunktiv2	person=13	number=sg
+halt	norm=halten	mood=imperativ	person=2	number=sg
+
+Halte	norm=halten	tense=praesens	person=1	number=sg
+Hältst	norm=halten	tense=praesens	person=2	number=sg
+Hält	norm=halten	tense=praesens	person=3	number=sg
+Halten	norm=halten	tense=praesens	person=13	number=pl	infinitiv=yes
+Haltet	norm=halten	tense=praesens	person=2	number=pl
+Hielt	norm=halten	tense=praeteritum	person=13	number=sg
+Hieltest	norm=halten	tense=praeteritum	person=12	number=sg
+Hielten	norm=halten	tense=praeteritum	person=13	number=pl
+Hieltet	norm=halten	tense=praeteritum	person=2	number=pl
+Gehalten	norm=halten	tense=perfekt	person=1	number=sgpl
+Hielte	norm=halten	mood=konjunktiv2	person=13	number=sg
+Halt	norm=halten	mood=imperativ	person=2	number=sg

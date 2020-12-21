@@ -1,0 +1,25 @@
+trete	norm=treten	tense=praesens	person=1	number=sg
+trittst	norm=treten	tense=praesens	person=2	number=sg
+tritt	norm=treten	tense=praesens	person=3	number=sg
+treten	norm=treten	tense=praesens	person=13	number=pl	infinitiv=yes
+tretet	norm=treten	tense=praesens	person=2	number=pl
+trat	norm=treten	tense=praeteritum	person=13	number=sg
+tratst	norm=treten	tense=praeteritum	person=12	number=sg
+traten	norm=treten	tense=praeteritum	person=13	number=pl
+tratet	norm=treten	tense=praeteritum	person=2	number=pl
+getreten	norm=treten	tense=perfekt	person=1	number=sgpl
+träte	norm=treten	mood=konjunktiv2	person=13	number=sg
+träten	norm=treten	mood=konjunktiv2	person=13	number=pl
+
+Trete	norm=treten	tense=praesens	person=1	number=sg
+Trittst	norm=treten	tense=praesens	person=2	number=sg
+Tritt	norm=treten	tense=praesens	person=3	number=sg
+Treten	norm=treten	tense=praesens	person=13	number=pl	infinitiv=yes
+Tretet	norm=treten	tense=praesens	person=2	number=pl
+Trat	norm=treten	tense=praeteritum	person=13	number=sg
+Tratst	norm=treten	tense=praeteritum	person=12	number=sg
+Traten	norm=treten	tense=praeteritum	person=13	number=pl
+Tratet	norm=treten	tense=praeteritum	person=2	number=pl
+Getreten	norm=treten	tense=perfekt	person=1	number=sgpl
+Träte	norm=treten	mood=konjunktiv2	person=13	number=sg
+Träten	norm=treten	mood=konjunktiv2	person=13	number=pl

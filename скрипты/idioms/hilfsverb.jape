@@ -1,0 +1,36 @@
+Imports: {
+	import static gate.Utils.*;
+}
+
+
+Phase: verbs
+Input: Lookup
+Options: control = appelt 
+
+Rule: gehen
+
+(
+	{Lookup.majorType ==~ "hilfsverb"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Lookup", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		addAnn(inputAS, bindingAnnots, "Hilfsverb", ann.getFeatures());
+	}
+}
+
+Rule: modalverb
+
+(
+	{Lookup.majorType ==~ "modalverb"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Lookup", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		addAnn(inputAS, bindingAnnots, "Modalverb", ann.getFeatures());
+	}
+}

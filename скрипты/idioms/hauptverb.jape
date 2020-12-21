@@ -1,0 +1,94 @@
+Imports: {
+	import static gate.Utils.*;
+}
+
+
+Phase: verbs
+Input: Lookup Token
+Options: control = appelt 
+
+MACRO: REMOVE_AS
+:binding{
+
+	AnnotationSet binding_as = (AnnotationSet)bindings.get("binding");
+	AnnotationSet toRemove = inputAS.get("Lookup", start(bindingAnnots), end(bindingAnnots));
+		if(toRemove != null) inputAS.removeAll(toRemove);
+}
+
+Rule: idiom
+
+(
+	{Lookup.minorType == "stop"}
+):binding
+-->
+REMOVE_AS
+
+// Rule: personverb
+
+// (
+// 	{Lookup.minorType == "stop", Token.string == "zu"}
+// ):binding
+// -->
+// REMOVE_AS
+
+
+Phase: verbs
+Input: Lookup Token
+Options: control = appelt 
+
+Rule: infinitiv_zu
+
+(
+	{Token.string == "zu"}
+	{Lookup.majorType == "hauptverb"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Lookup", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		Annotation ann = anns.iterator().next();
+		ann.getFeatures().put("infinitiv_zu", "yes");
+		addAnn(inputAS, bindingAnnots, "Hauptverb", ann.getFeatures());
+	}
+}
+
+
+Rule: hauptverb
+
+(
+	{Lookup.majorType == "hauptverb"}
+):binding
+-->
+:binding{
+	AnnotationSet anns = inputAS.get("Lookup", start(bindingAnnots), end(bindingAnnots));
+	if (anns != null && anns.size() > 0) {
+		for (Annotation ann : anns) {
+			// Annotation ann = anns.iterator().next();
+			if (ann.getFeatures().containsValue("hauptverb")){
+				addAnn(inputAS, bindingAnnots, "Hauptverb", ann.getFeatures());
+			}
+		}
+	}
+}
+
+// Phase: personverb
+// Input: Lookup Token Hauptverb
+// Options: control = appelt 
+
+// Rule: personverb
+
+// (
+// 	{Lookup.majorType == "personverb", Hauptverb}
+// ):binding
+// -->
+// :binding{
+// 	AnnotationSet anns = inputAS.get("Lookup", start(bindingAnnots), end(bindingAnnots));
+// 	if (anns != null && anns.size() > 0) {
+// 		for (Annotation ann : anns) {
+// 			// Annotation ann = anns.iterator().next();
+// 			if (ann.getFeatures().containsValue("hauptverb")){
+// 				addAnn(inputAS, bindingAnnots, "Hauptverb", ann.getFeatures());
+// 			}
+// 		}
+// 	}
+// }

@@ -1,0 +1,32 @@
+sage	norm=sagen	tense=praesens	person=1	number=sg
+sagst	norm=sagen	tense=praesens	person=2	number=sg
+sagt	norm=sagen	tense=praesens	person=32	number=sgpl
+sagen	norm=sagen	tense=praesens	person=13	number=pl	infinitiv=yes
+sagte	norm=sagen	tense=praeteritum	person=13	number=sg
+sagtest	norm=sagen	tense=praeteritum	person=2	number=sg
+sagten	norm=sagen	tense=praeteritum	person=13	number=pl
+sagtet	norm=sagen	tense=praeteritum	person=2	number=pl
+gesagt	norm=sagen	tense=perfekt	person=1	number=sgpl
+sag	norm=sagen	mood=imperativ	person=2	number=sg
+
+Sage	norm=sagen	tense=praesens	person=1	number=sg
+Sagst	norm=sagen	tense=praesens	person=2	number=sg
+Sagt	norm=sagen	tense=praesens	person=32	number=sgpl
+Sagen	norm=sagen	tense=praesens	person=13	number=pl	infinitiv=yes
+Sagte	norm=sagen	tense=praeteritum	person=13	number=sg
+Sagtest	norm=sagen	tense=praeteritum	person=2	number=sg
+Sagten	norm=sagen	tense=praeteritum	person=13	number=pl
+Sagtet	norm=sagen	tense=praeteritum	person=2	number=pl
+Gesagt	norm=sagen	tense=perfekt	person=1	number=sgpl
+Sag	norm=sagen	mood=imperativ	person=2	number=sg
+
+zusage	norm=zusagen	tense=praesens	person=1	number=sg
+zusagst	norm=zusagen	tense=praesens	person=2	number=sg
+zusagt	norm=zusagen	tense=praesens	person=32	number=sgpl
+zusagen	norm=zusagen	tense=praesens	person=13	number=pl	infinitiv=yes
+zusagte	norm=zusagen	tense=praeteritum	person=13	number=sg
+zusagtest	norm=zusagen	tense=praeteritum	person=2	number=sg
+zusagten	norm=zusagen	tense=praeteritum	person=13	number=pl
+zusagtet	norm=zusagen	tense=praeteritum	person=2	number=pl
+zugesagt	norm=zusagen	tense=perfekt	person=1	number=sgpl
+zuzusagen	norm=zusagen	tense=perfekt	person=1	number=sgpl infinitiv_zu=yes

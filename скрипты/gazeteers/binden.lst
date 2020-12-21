@@ -1,0 +1,23 @@
+binde	norm=binden	tense=praesens	person=1	number=sg
+bindest	norm=binden	tense=praesens	person=2	number=sg
+bindet	norm=binden	tense=praesens	person=32	number=sgpl
+binden	norm=binden	tense=praesens	person=13	number=pl	infinitiv=yes
+band	norm=binden	tense=praeteritum	person=13	number=sg
+bandest	norm=binden	tense=praeteritum	person=12	number=sg
+bandn	norm=binden	tense=praeteritum	person=13	number=pl
+bandet	norm=binden	tense=praeteritum	person=2	number=pl
+gebunden	norm=binden	tense=perfekt	person=1	number=sgpl
+bände	norm=binden	mood=konjunktiv2	person=13	number=sg
+bänden	norm=binden	mood=konjunktiv2	person=13	number=pl
+
+Binde	norm=binden	tense=praesens	person=1	number=sg
+Bindest	norm=binden	tense=praesens	person=2	number=sg
+Bindet	norm=binden	tense=praesens	person=32	number=sgpl
+Binden	norm=binden	tense=praesens	person=13	number=pl	infinitiv=yes
+Band	norm=binden	tense=praeteritum	person=13	number=sg
+Bandest	norm=binden	tense=praeteritum	person=12	number=sg
+Bandn	norm=binden	tense=praeteritum	person=13	number=pl
+Bandet	norm=binden	tense=praeteritum	person=2	number=pl
+Bebunden	norm=binden	tense=perfekt	person=1	number=sgpl
+Bände	norm=binden	mood=konjunktiv2	person=13	number=sg
+Bänden	norm=binden	mood=konjunktiv2	person=13	number=pl

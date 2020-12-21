@@ -1,0 +1,23 @@
+gehe	norm=gehen	tense=praesens	person=1	number=sg
+gehst	norm=gehen	tense=praesens	person=2	number=sg
+geht	norm=gehen	tense=praesens	person=32	number=sgpl
+gehen	norm=gehen	tense=praesens	person=13	number=pl	infinitiv=yes
+ging	norm=gehen	tense=praeteritum	person=13	number=sg
+gingst	norm=gehen	tense=praeteritum	person=2	number=sg
+gingen	norm=gehen	tense=praeteritum	person=13	number=pl
+ginget	norm=gehen	tense=praeteritum	person=2	number=pl
+gegangen	norm=gehen	tense=perfekt	person=1	number=sgpl
+ginge	norm=gehen	mood=konjunktiv2	person=13	number=sg
+geh	norm=gehen	mood=imperativ	person=2	number=sg
+
+Gehe	norm=gehen	tense=praesens	person=1	number=sg
+Gehst	norm=gehen	tense=praesens	person=2	number=sg
+Geht	norm=gehen	tense=praesens	person=32	number=sgpl
+Gehen	norm=gehen	tense=praesens	person=13	number=pl	infinitiv=yes
+Ging	norm=gehen	tense=praeteritum	person=13	number=sg
+Gingst	norm=gehen	tense=praeteritum	person=2	number=sg
+Gingen	norm=gehen	tense=praeteritum	person=13	number=pl
+Gegangen	norm=gehen	tense=perfekt	person=1	number=sgpl
+Ginget	norm=gehen	tense=praeteritum	person=2	number=pl
+Ginge	norm=gehen	mood=konjunktiv2	person=13	number=sg
+Geh	norm=gehen	mood=imperativ	person=2	number=sg

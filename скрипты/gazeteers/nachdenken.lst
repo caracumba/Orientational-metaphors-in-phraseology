@@ -1,0 +1,23 @@
+nachdenke	norm=nachdenken	tense=praesens	person=1	number=sg
+nachdenkst	norm=nachdenken	tense=praesens	person=2	number=sg
+nachdenkt	norm=nachdenken	tense=praesens	person=32	number=sgpl
+nachdenken	norm=nachdenken	tense=praesens	person=13	number=pl	infinitiv=yes
+nachdachte	norm=nachdenken	tense=praeteritum	person=13	number=sg
+nachdachtest	norm=nachdenken	tense=praeteritum	person=12	number=sg
+nachdachten	norm=nachdenken	tense=praeteritum	person=13	number=pl
+nachdachtet	norm=nachdenken	tense=praeteritum	person=2	number=pl
+nachgedacht	norm=nachdenken	tense=perfekt	person=1	number=sgpl
+nachdenk	norm=nachdenken	mood=imperativ	person=2	number=sg
+nachzudenken	norm=nachdenken	infinitiv_zu=yes
+
+Nachdenke	norm=nachdenken	tense=praesens	person=1	number=sg
+Nachdenkst	norm=nachdenken	tense=praesens	person=2	number=sg
+Nachdenkt	norm=nachdenken	tense=praesens	person=32	number=sgpl
+Nachdenken	norm=nachdenken	tense=praesens	person=13	number=pl	infinitiv=yes
+Nachdachte	norm=nachdenken	tense=praeteritum	person=13	number=sg
+Nachdachtest	norm=nachdenken	tense=praeteritum	person=12	number=sg
+Nachdachten	norm=nachdenken	tense=praeteritum	person=13	number=pl
+Nachdachtet	norm=nachdenken	tense=praeteritum	person=2	number=pl
+Nachgedacht	norm=nachdenken	tense=perfekt	person=1	number=sgpl
+Nachdenk	norm=nachdenken	mood=imperativ	person=2	number=sg
+Nachzudenken	norm=nachdenken	infinitiv_zu=yes

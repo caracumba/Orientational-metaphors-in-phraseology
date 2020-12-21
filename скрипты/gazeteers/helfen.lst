@@ -1,0 +1,27 @@
+helfe	norm=helfen	tense=praesens	person=1	number=sg
+hilfst	norm=helfen	tense=praesens	person=2	number=sg
+hilft	norm=helfen	tense=praesens	person=3	number=sg
+helfen	norm=helfen	tense=praesens	person=13	number=pl	infinitiv=yes
+helft	norm=helfen	tense=praesens	person=2	number=pl
+half	norm=helfen	tense=praeteritum	person=13	number=sg
+halfst	norm=helfen	tense=praeteritum	person=12	number=sg
+halfen	norm=helfen	tense=praeteritum	person=13	number=pl
+halft	norm=helfen	tense=praeteritum	person=2	number=pl
+geholfen	norm=helfen	tense=perfekt	person=1	number=sgpl
+hälfe	norm=helfen	mood=konjunktiv2	person=13	number=sg
+hälfen	norm=helfen	mood=konjunktiv2	person=13	number=pl
+hilf	norm=helfen	mood=imperativ	person=2	number=sg
+
+Helfe	norm=helfen	tense=praesens	person=1	number=sg
+Hilfst	norm=helfen	tense=praesens	person=2	number=sg
+Hilft	norm=helfen	tense=praesens	person=3	number=sg
+Helfen	norm=helfen	tense=praesens	person=13	number=pl	infinitiv=yes
+Helft	norm=helfen	tense=praesens	person=2	number=pl
+Half	norm=helfen	tense=praeteritum	person=13	number=sg
+Halfst	norm=helfen	tense=praeteritum	person=12	number=sg
+Halfen	norm=helfen	tense=praeteritum	person=13	number=pl
+Halft	norm=helfen	tense=praeteritum	person=2	number=pl
+Geholfen	norm=helfen	tense=perfekt	person=1	number=sgpl
+Hälfe	norm=helfen	mood=konjunktiv2	person=13	number=sg
+Hälfen	norm=helfen	mood=konjunktiv2	person=13	number=pl
+Hilf	norm=helfen	mood=imperativ	person=2	number=sg

@@ -1,0 +1,16 @@
+darf	norm=dürfen	tense=praesens	person=13	number=sg
+darfst	norm=dürfen	tense=praesens	person=2	number=sg
+dürfen	norm=dürfen	tense=praesens	person=13	number=pl	infinitiv=yes
+dürft	norm=dürfen	tense=praesens	person=2	number=pl
+durfte	norm=dürfen	tense=praeteritum	person=13	number=sg
+durftest	norm=dürfen	tense=praeteritum	person=2	number=sg
+durften	norm=dürfen	tense=praeteritum	person=13	number=pl
+durftet	norm=dürfen	tense=praeteritum	person=2	number=pl
+gedurft	norm=dürfen	tense=perfekt	number=sgpl
+
+dürfe	norm=dürfen	mood=konjunktiv1	person=13	number=sg
+
+dürfte	norm=dürfen	mood=konjunktiv2	person=13	number=sg
+dürftest	norm=dürfen	mood=konjunktiv2	person=2	number=sg
+dürften	norm=dürfen	mood=konjunktiv2	person=13	number=pl
+dürftet	norm=dürfen	mood=konjunktiv2	person=2	number=pl

@@ -1,0 +1,21 @@
+denke	norm=denken	tense=praesens	person=1	number=sg
+denkst	norm=denken	tense=praesens	person=2	number=sg
+denkt	norm=denken	tense=praesens	person=32	number=sgpl
+denken	norm=denken	tense=praesens	person=13	number=pl	infinitiv=yes
+dachte	norm=denken	tense=praeteritum	person=13	number=sg
+dachtest	norm=denken	tense=praeteritum	person=12	number=sg
+dachten	norm=denken	tense=praeteritum	person=13	number=pl
+dachtet	norm=denken	tense=praeteritum	person=2	number=pl
+gedacht	norm=denken	tense=perfekt	person=1	number=sgpl
+denk	norm=denken	mood=imperativ	person=2	number=sg
+
+Denke	norm=denken	tense=praesens	person=1	number=sg
+Denkst	norm=denken	tense=praesens	person=2	number=sg
+Denkt	norm=denken	tense=praesens	person=32	number=sgpl
+Denken	norm=denken	tense=praesens	person=13	number=pl	infinitiv=yes
+Dachte	norm=denken	tense=praeteritum	person=13	number=sg
+Dachtest	norm=denken	tense=praeteritum	person=12	number=sg
+Dachten	norm=denken	tense=praeteritum	person=13	number=pl
+Dachtet	norm=denken	tense=praeteritum	person=2	number=pl
+Dedacht	norm=denken	tense=perfekt	person=1	number=sgpl
+Denk	norm=denken	mood=imperativ	person=2	number=sg

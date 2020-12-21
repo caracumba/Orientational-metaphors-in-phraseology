@@ -1,0 +1,25 @@
+leide	norm=leiden	tense=praesens	person=1	number=sg
+leidest	norm=leiden	tense=praesens	person=2	number=sg
+leidet	norm=leiden	tense=praesens	person=3	number=sg
+leiden	norm=leiden	tense=praesens	person=13	number=pl	infinitiv=yes
+leidet	norm=leiden	tense=praesens	person=2	number=pl
+litt	norm=leiden	tense=praeteritum	person=13	number=sg
+littest	norm=leiden	tense=praeteritum	person=12	number=sg
+litten	norm=leiden	tense=praeteritum	person=13	number=pl
+littet	norm=leiden	tense=praeteritum	person=2	number=pl
+gelitten	norm=leiden	tense=perfekt	person=1	number=sgpl
+litte	norm=leiden	mood=konjunktiv2	person=13	number=sg
+leid	norm=leiden	mood=imperativ	person=2	number=sg
+
+Leide	norm=leiden	tense=praesens	person=1	number=sg
+Leidest	norm=leiden	tense=praesens	person=2	number=sg
+Leidet	norm=leiden	tense=praesens	person=3	number=sg
+Leiden	norm=leiden	tense=praesens	person=13	number=pl	infinitiv=yes
+Leidet	norm=leiden	tense=praesens	person=2	number=pl
+Litt	norm=leiden	tense=praeteritum	person=13	number=sg
+Littest	norm=leiden	tense=praeteritum	person=12	number=sg
+Litten	norm=leiden	tense=praeteritum	person=13	number=pl
+Littet	norm=leiden	tense=praeteritum	person=2	number=pl
+Gelitten	norm=leiden	tense=perfekt	person=1	number=sgpl
+Litte	norm=leiden	mood=konjunktiv2	person=13	number=sg
+Leid	norm=leiden	mood=imperativ	person=2	number=sg

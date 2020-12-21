@@ -1,0 +1,19 @@
+komme	norm=kommen	tense=praesens	person=1	number=sg
+kommst	norm=kommen	tense=praesens	person=2	number=sg
+kommt	norm=kommen	tense=praesens	person=32	number=sgpl
+kommen	norm=kommen	tense=praesens	person=13	number=pl	infinitiv=yes
+kam	norm=kommen	tense=praeteritum	person=13	number=sg
+kamen	norm=kommen	tense=praeteritum	person=13	number=pl
+gekommen	norm=kommen	tense=perfekt	person=1	number=sgpl
+käme	norm=kommen	mood=konjunktiv2	person=13	number=sg
+komm	norm=kommen	mood=imperativ	person=2	number=sg
+
+Komme	norm=kommen	tense=praesens	person=1	number=sg
+Kommst	norm=kommen	tense=praesens	person=2	number=sg
+Kommt	norm=kommen	tense=praesens	person=32	number=sgpl
+Kommen	norm=kommen	tense=praesens	person=13	number=pl	infinitiv=yes
+Kam	norm=kommen	tense=praeteritum	person=13	number=sg
+Kamen	norm=kommen	tense=praeteritum	person=13	number=pl
+Gekommen	norm=kommen	tense=perfekt	person=1	number=sgpl
+Käme	norm=kommen	mood=konjunktiv2	person=13	number=sg
+Komm	norm=kommen	mood=imperativ	person=2	number=sg

@@ -1,0 +1,23 @@
+bringe	norm=bringen	tense=praesens	person=1	number=sg
+bringst	norm=bringen	tense=praesens	person=2	number=sg
+bringt	norm=bringen	tense=praesens	person=32	number=sgpl
+bringen	norm=bringen	tense=praesens	person=13	number=pl	infinitiv=yes
+brachte	norm=bringen	tense=praeteritum	person=13	number=sg
+brachtest	norm=bringen	tense=praeteritum	person=12	number=sg
+brachten	norm=bringen	tense=praeteritum	person=13	number=pl
+brachtet	norm=bringen	tense=praeteritum	person=2	number=pl
+gebracht	norm=bringen	tense=perfekt	person=1	number=sgpl
+brächte	norm=bringen	mood=konjunktiv2	person=13	number=sg
+bring	norm=bringen	mood=imperativ	person=2	number=sg
+
+Bringe	norm=bringen	tense=praesens	person=1	number=sg
+Bringst	norm=bringen	tense=praesens	person=2	number=sg
+Bringt	norm=bringen	tense=praesens	person=32	number=sgpl
+Bringen	norm=bringen	tense=praesens	person=13	number=pl	infinitiv=yes
+Brachte	norm=bringen	tense=praeteritum	person=13	number=sg
+Brachtest	norm=bringen	tense=praeteritum	person=12	number=sg
+Brachten	norm=bringen	tense=praeteritum	person=13	number=pl
+Brachtet	norm=bringen	tense=praeteritum	person=2	number=pl
+Gebracht	norm=bringen	tense=perfekt	person=1	number=sgpl
+Brächte	norm=bringen	mood=konjunktiv2	person=13	number=sg
+Bring	norm=bringen	mood=imperativ	person=2	number=sg

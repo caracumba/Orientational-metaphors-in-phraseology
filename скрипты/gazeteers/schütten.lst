@@ -1,0 +1,53 @@
+schütte	norm=schütten	tense=praesens	person=1	number=sg
+schüttest	norm=schütten	tense=praesens	person=2	number=sg
+schüttet	norm=schütten	tense=praesens	person=32	number=sgpl
+schütten	norm=schütten	tense=praesens	person=13	number=pl	infinitiv=yes
+schüttete	norm=schütten	tense=praeteritum	person=13	number=sg
+schüttetest	norm=schütten	tense=praeteritum	person=2	number=sg
+schütteten	norm=schütten	tense=praeteritum	person=13	number=pl
+schüttetet	norm=schütten	tense=praeteritum	person=2	number=pl
+geschüttet	norm=schütten	tense=perfekt	person=1	number=sgpl
+schütt	norm=schütten	mood=imperativ	person=2	number=sg
+
+Schütte	norm=schütten	tense=praesens	person=1	number=sg
+Schüttest	norm=schütten	tense=praesens	person=2	number=sg
+Schüttet	norm=schütten	tense=praesens	person=32	number=sgpl
+Schütten	norm=schütten	tense=praesens	person=13	number=pl	infinitiv=yes
+Schüttete	norm=schütten	tense=praeteritum	person=13	number=sg
+Schüttetest	norm=schütten	tense=praeteritum	person=2	number=sg
+Schütteten	norm=schütten	tense=praeteritum	person=13	number=pl
+Schüttetet	norm=schütten	tense=praeteritum	person=2	number=pl
+Geschüttet	norm=schütten	tense=perfekt	person=1	number=sgpl
+Schütt	norm=schütten	mood=imperativ	person=2	number=sg
+
+ausschütte	norm=ausschütten	tense=praesens	person=1	number=sg
+ausschüttest	norm=ausschütten	tense=praesens	person=2	number=sg
+ausschüttet	norm=ausschütten	tense=praesens	person=32	number=sgpl
+ausschütten	norm=ausschütten	tense=praesens	person=13	number=pl	infinitiv=yes
+ausschüttete	norm=ausschütten	tense=praeteritum	person=13	number=sg
+ausschüttetest	norm=ausschütten	tense=praeteritum	person=2	number=sg
+ausschütteten	norm=ausschütten	tense=praeteritum	person=13	number=pl
+ausschüttetet	norm=ausschütten	tense=praeteritum	person=2	number=pl
+ausgeschüttet	norm=ausschütten	tense=perfekt	person=1	number=sgpl
+auszuschütten	norm=ausschütten	tense=perfekt	person=1	number=sgpl infinitiv_zu=yes
+
+aufreiße	norm=aufreißen	tense=praesens	person=1	number=sg
+aufreißt	norm=aufreißen	tense=praesens	person=32	number=sgpl
+aufreißen	norm=aufreißen	tense=praesens	person=13	number=pl	infinitiv=yes
+aufriss	norm=aufreißen	tense=praeteritum	person=13	number=sg
+aufrissest	norm=aufreißen	tense=praeteritum	person=12	number=sg
+aufrissen	norm=aufreißen	tense=praeteritum	person=13	number=pl
+aufrisst	norm=aufreißen	tense=praeteritum	person=2	number=pl
+aufgerissen	norm=aufreißen	tense=perfekt	person=1	number=sgpl
+aufrisse	norm=aufreißen	mood=konjunktiv2	person=13	number=sg
+aufzureißen	norm=aufreißen	tense=perfekt	person=1	number=sgpl infinitiv_zu=yes
+
+aufreisse	norm=aufreißen	tense=praesens	person=1	number=sg
+aufreisst	norm=aufreißen	tense=praesens	person=32	number=sgpl
+aufreissen	norm=aufreißen	tense=praesens	person=13	number=pl	infinitiv=yes
+aufriß	norm=aufreißen	tense=praeteritum	person=13	number=sg
+aufrißest	norm=aufreißen	tense=praeteritum	person=12	number=sg
+aufrißen	norm=aufreißen	tense=praeteritum	person=13	number=pl
+aufrißt	norm=aufreißen	tense=praeteritum	person=2	number=pl
+aufgerißen	norm=aufreißen	tense=perfekt	person=1	number=sgpl
+aufzureissen	norm=aufreißen	tense=perfekt	person=1	number=sgpl infinitiv_zu=yes

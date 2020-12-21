@@ -1,0 +1,27 @@
+treffe	norm=treffen	tense=praesens	person=1	number=sg
+triffst	norm=treffen	tense=praesens	person=2	number=sg
+trifft	norm=treffen	tense=praesens	person=3	number=sg
+treffen	norm=treffen	tense=praesens	person=13	number=pl	infinitiv=yes
+trefft	norm=treffen	tense=praesens	person=2	number=pl
+traf	norm=treffen	tense=praeteritum	person=13	number=sg
+trafst	norm=treffen	tense=praeteritum	person=12	number=sg
+trafen	norm=treffen	tense=praeteritum	person=13	number=pl
+traft	norm=treffen	tense=praeteritum	person=2	number=pl
+getroffen	norm=treffen	tense=perfekt	person=1	number=sgpl
+träfe	norm=treffen	mood=konjunktiv2	person=13	number=sg
+träfen	norm=treffen	mood=konjunktiv2	person=13	number=pl
+triff	norm=treffen	mood=imperativ	person=2	number=sg
+
+Treffe	norm=treffen	tense=praesens	person=1	number=sg
+Triffst	norm=treffen	tense=praesens	person=2	number=sg
+Trifft	norm=treffen	tense=praesens	person=3	number=sg
+Treffen	norm=treffen	tense=praesens	person=13	number=pl	infinitiv=yes
+Trefft	norm=treffen	tense=praesens	person=2	number=pl
+Traf	norm=treffen	tense=praeteritum	person=13	number=sg
+Trafst	norm=treffen	tense=praeteritum	person=12	number=sg
+Trafen	norm=treffen	tense=praeteritum	person=13	number=pl
+Traft	norm=treffen	tense=praeteritum	person=2	number=pl
+Getroffen	norm=treffen	tense=perfekt	person=1	number=sgpl
+Träfe	norm=treffen	mood=konjunktiv2	person=13	number=sg
+Träfen	norm=treffen	mood=konjunktiv2	person=13	number=pl
+Triff	norm=treffen	mood=imperativ	person=2	number=sg

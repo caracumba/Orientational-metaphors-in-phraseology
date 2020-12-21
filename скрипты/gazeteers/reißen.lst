@@ -1,0 +1,43 @@
+reiße	norm=reißen	tense=praesens	person=1	number=sg
+reißt	norm=reißen	tense=praesens	person=32	number=sgpl
+reißen	norm=reißen	tense=praesens	person=13	number=pl	infinitiv=yes
+riss	norm=reißen	tense=praeteritum	person=13	number=sg
+rissest	norm=reißen	tense=praeteritum	person=12	number=sg
+rissen	norm=reißen	tense=praeteritum	person=13	number=pl
+risst	norm=reißen	tense=praeteritum	person=2	number=pl
+gerissen	norm=reißen	tense=perfekt	person=1	number=sgpl
+risse	norm=reißen	mood=konjunktiv2	person=13	number=sg
+reiß	norm=reißen	mood=imperativ	person=2	number=sg
+
+
+reisse	norm=reißen	tense=praesens	person=1	number=sg
+reisst	norm=reißen	tense=praesens	person=32	number=sgpl
+reissen	norm=reißen	tense=praesens	person=13	number=pl	infinitiv=yes
+riß	norm=reißen	tense=praeteritum	person=13	number=sg
+rißest	norm=reißen	tense=praeteritum	person=12	number=sg
+rißen	norm=reißen	tense=praeteritum	person=13	number=pl
+rißt	norm=reißen	tense=praeteritum	person=2	number=pl
+gerißen	norm=reißen	tense=perfekt	person=1	number=sgpl
+reiss	norm=reißen	mood=imperativ	person=2	number=sg
+
+Reiße	norm=reißen	tense=praesens	person=1	number=sg
+Reißt	norm=reißen	tense=praesens	person=32	number=sgpl
+Reißen	norm=reißen	tense=praesens	person=13	number=pl	infinitiv=yes
+Riss	norm=reißen	tense=praeteritum	person=13	number=sg
+Rissest	norm=reißen	tense=praeteritum	person=12	number=sg
+Rissen	norm=reißen	tense=praeteritum	person=13	number=pl
+Risst	norm=reißen	tense=praeteritum	person=2	number=pl
+Gerissen	norm=reißen	tense=perfekt	person=1	number=sgpl
+Risse	norm=reißen	mood=konjunktiv2	person=13	number=sg
+Reiß	norm=reißen	mood=imperativ	person=2	number=sg
+
+
+Reisse	norm=reißen	tense=praesens	person=1	number=sg
+Reisst	norm=reißen	tense=praesens	person=32	number=sgpl
+Reissen	norm=reißen	tense=praesens	person=13	number=pl	infinitiv=yes
+Riß	norm=reißen	tense=praeteritum	person=13	number=sg
+Rißest	norm=reißen	tense=praeteritum	person=12	number=sg
+Rißen	norm=reißen	tense=praeteritum	person=13	number=pl
+Rißt	norm=reißen	tense=praeteritum	person=2	number=pl
+Gerißen	norm=reißen	tense=perfekt	person=1	number=sgpl
+Reiss	norm=reißen	mood=imperativ	person=2	number=sg

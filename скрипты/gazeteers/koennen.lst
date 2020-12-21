@@ -1,0 +1,33 @@
+kann	norm=können	tense=praesens	person=13	number=sg
+kannst	norm=können	tense=praesens	person=2	number=sg
+können	norm=können	tense=praesens	person=13	number=pl	infinitiv=yes
+könnt	norm=können	tense=praesens	person=2	number=pl
+konnte	norm=können	tense=praeteritum	person=13	number=sg
+konntest	norm=können	tense=praeteritum	person=2	number=sg
+konnten	norm=können	tense=praeteritum	person=13	number=pl
+konntet	norm=können	tense=praeteritum	person=2	number=pl
+gekonnt	norm=können	tense=perfekt	number=sgpl
+
+könne	norm=können	mood=konjunktiv1	person=13	number=sg
+
+könnte	norm=können	mood=konjunktiv2	person=13	number=sg
+könntest	norm=können	mood=konjunktiv2	person=2	number=sg
+könnten	norm=können	mood=konjunktiv2	person=13	number=pl
+könntet	norm=können	mood=konjunktiv2	person=2	number=pl
+
+Kann	norm=können	tense=praesens	person=13	number=sg
+Kannst	norm=können	tense=praesens	person=2	number=sg
+Können	norm=können	tense=praesens	person=13	number=pl	infinitiv=yes
+Könnt	norm=können	tense=praesens	person=2	number=pl
+Konnte	norm=können	tense=praeteritum	person=13	number=sg
+Konntest	norm=können	tense=praeteritum	person=2	number=sg
+Konnten	norm=können	tense=praeteritum	person=13	number=pl
+Konntet	norm=können	tense=praeteritum	person=2	number=pl
+Gekonnt	norm=können	tense=perfekt	number=sgpl
+
+Könne	norm=können	mood=konjunktiv1	person=13	number=sg
+
+Könnte	norm=können	mood=konjunktiv2	person=13	number=sg
+Könntest	norm=können	mood=konjunktiv2	person=2	number=sg
+Könnten	norm=können	mood=konjunktiv2	person=13	number=pl
+Könntet	norm=können	mood=konjunktiv2	person=2	number=pl

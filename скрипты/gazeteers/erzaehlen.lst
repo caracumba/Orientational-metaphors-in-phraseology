@@ -1,0 +1,21 @@
+erzähle	norm=erzählen	tense=praesens	person=1	number=sg
+erzählst	norm=erzählen	tense=praesens	person=2	number=sg
+erzählt	norm=erzählen	tense=praesens	person=32	number=sgpl
+erzählen	norm=erzählen	tense=praesens	person=13	number=pl	infinitiv=yes
+erzählte	norm=erzählen	tense=praeteritum	person=13	number=sg
+erzähltest	norm=erzählen	tense=praeteritum	person=2	number=sg
+erzählten	norm=erzählen	tense=praeteritum	person=13	number=pl
+erzähltet	norm=erzählen	tense=praeteritum	person=2	number=pl
+erzählt	norm=erzählen	tense=perfekt	person=1	number=sgpl
+erzähl	norm=erzählen	mood=imperativ	person=2	number=sg
+
+Erzähle	norm=erzählen	tense=praesens	person=1	number=sg
+Erzählst	norm=erzählen	tense=praesens	person=2	number=sg
+Erzählt	norm=erzählen	tense=praesens	person=32	number=sgpl
+Erzählen	norm=erzählen	tense=praesens	person=13	number=pl	infinitiv=yes
+Erzählte	norm=erzählen	tense=praeteritum	person=13	number=sg
+Erzähltest	norm=erzählen	tense=praeteritum	person=2	number=sg
+Erzählten	norm=erzählen	tense=praeteritum	person=13	number=pl
+Erzähltet	norm=erzählen	tense=praeteritum	person=2	number=pl
+Erzählt	norm=erzählen	tense=perfekt	person=1	number=sgpl
+Erzähl	norm=erzählen	mood=imperativ	person=2	number=sg

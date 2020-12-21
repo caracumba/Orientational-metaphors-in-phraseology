@@ -1,0 +1,21 @@
+krieche	norm=kriechen	tense=praesens	person=1	number=sg
+kriechst	norm=kriechen	tense=praesens	person=2	number=sg
+kriecht	norm=kriechen	tense=praesens	person=32	number=sgpl
+kriechen	norm=kriechen	tense=praesens	person=13	number=pl	infinitiv=yes
+kriechte	norm=kriechen	tense=praeteritum	person=13	number=sg
+kriechtest	norm=kriechen	tense=praeteritum	person=2	number=sg
+kriechten	norm=kriechen	tense=praeteritum	person=13	number=pl
+kriechtet	norm=kriechen	tense=praeteritum	person=2	number=pl
+gekriecht	norm=kriechen	tense=perfekt	person=1	number=sgpl
+kriech	norm=kriechen	mood=imperativ	person=2	number=sg
+
+Krieche	norm=kriechen	tense=praesens	person=1	number=sg
+Kriechst	norm=kriechen	tense=praesens	person=2	number=sg
+Kriecht	norm=kriechen	tense=praesens	person=32	number=sgpl
+Kriechen	norm=kriechen	tense=praesens	person=13	number=pl	infinitiv=yes
+Kriechte	norm=kriechen	tense=praeteritum	person=13	number=sg
+Kriechtest	norm=kriechen	tense=praeteritum	person=2	number=sg
+Kriechten	norm=kriechen	tense=praeteritum	person=13	number=pl
+Kriechtet	norm=kriechen	tense=praeteritum	person=2	number=pl
+Gekriecht	norm=kriechen	tense=perfekt	person=1	number=sgpl
+Kriech	norm=kriechen	mood=imperativ	person=2	number=sg

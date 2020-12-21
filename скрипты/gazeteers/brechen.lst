@@ -1,0 +1,27 @@
+breche	norm=brechen	tense=praesens	person=1	number=sg
+brichst	norm=brechen	tense=praesens	person=2	number=sg
+bricht	norm=brechen	tense=praesens	person=3	number=sg
+brechen	norm=brechen	tense=praesens	person=13	number=pl	infinitiv=yes
+brecht	norm=brechen	tense=praesens	person=2	number=pl
+brach	norm=brechen	tense=praeteritum	person=13	number=sg
+brachst	norm=brechen	tense=praeteritum	person=12	number=sg
+brachen	norm=brechen	tense=praeteritum	person=13	number=pl
+bracht	norm=brechen	tense=praeteritum	person=2	number=pl
+gebrochen	norm=brechen	tense=perfekt	person=1	number=sgpl
+bräche	norm=brechen	mood=konjunktiv2	person=13	number=sg
+brächen	norm=brechen	mood=konjunktiv2	person=13	number=pl
+brich	norm=brechen	mood=imperativ	person=2	number=sg
+
+Breche	norm=brechen	tense=praesens	person=1	number=sg
+Brichst	norm=brechen	tense=praesens	person=2	number=sg
+Bricht	norm=brechen	tense=praesens	person=3	number=sg
+Brechen	norm=brechen	tense=praesens	person=13	number=pl	infinitiv=yes
+Brecht	norm=brechen	tense=praesens	person=2	number=pl
+Brach	norm=brechen	tense=praeteritum	person=13	number=sg
+Brachst	norm=brechen	tense=praeteritum	person=12	number=sg
+Brachen	norm=brechen	tense=praeteritum	person=13	number=pl
+Bracht	norm=brechen	tense=praeteritum	person=2	number=pl
+Gebrochen	norm=brechen	tense=perfekt	person=1	number=sgpl
+Bräche	norm=brechen	mood=konjunktiv2	person=13	number=sg
+Brächen	norm=brechen	mood=konjunktiv2	person=13	number=pl
+Brich	norm=brechen	mood=imperativ	person=2	number=sg

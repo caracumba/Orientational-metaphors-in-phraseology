@@ -1,0 +1,21 @@
+räume	norm=räumen	tense=praesens	person=1	number=sg
+räumst	norm=räumen	tense=praesens	person=2	number=sg
+räumt	norm=räumen	tense=praesens	person=32	number=sgpl
+räumen	norm=räumen	tense=praesens	person=13	number=pl	infinitiv=yes
+räumte	norm=räumen	tense=praeteritum	person=13	number=sg
+räumtest	norm=räumen	tense=praeteritum	person=2	number=sg
+räumten	norm=räumen	tense=praeteritum	person=13	number=pl
+räumtet	norm=räumen	tense=praeteritum	person=2	number=pl
+geräumt	norm=räumen	tense=perfekt	person=1	number=sgpl
+räum	norm=räumen	mood=imperativ	person=2	number=sg
+
+Räume	norm=räumen	tense=praesens	person=1	number=sg
+Räumst	norm=räumen	tense=praesens	person=2	number=sg
+Räumt	norm=räumen	tense=praesens	person=32	number=sgpl
+Räumen	norm=räumen	tense=praesens	person=13	number=pl	infinitiv=yes
+Räumte	norm=räumen	tense=praeteritum	person=13	number=sg
+Räumtest	norm=räumen	tense=praeteritum	person=2	number=sg
+Räumten	norm=räumen	tense=praeteritum	person=13	number=pl
+Räumtet	norm=räumen	tense=praeteritum	person=2	number=pl
+Geräumt	norm=räumen	tense=perfekt	person=1	number=sgpl
+Räum	norm=räumen	mood=imperativ	person=2	number=sg

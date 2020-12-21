@@ -1,0 +1,21 @@
+verbessere	norm=verbessern	tense=praesens	person=1	number=sg
+verbesserst	norm=verbessern	tense=praesens	person=2	number=sg
+verbessert	norm=verbessern	tense=praesens	person=32	number=sgpl
+verbessern	norm=verbessern	tense=praesens	person=13	number=pl	infinitiv=yes
+verbesserte	norm=verbessern	tense=praeteritum	person=13	number=sg
+verbessertest	norm=verbessern	tense=praeteritum	person=2	number=sg
+verbesserten	norm=verbessern	tense=praeteritum	person=13	number=pl
+verbessertet	norm=verbessern	tense=praeteritum	person=2	number=pl
+verbessert	norm=verbessern	tense=perfekt	person=1	number=sgpl
+verbessere	norm=verbessern	mood=imperativ	person=2	number=sg
+
+Verbessere	norm=verbessern	tense=praesens	person=1	number=sg
+Verbesserst	norm=verbessern	tense=praesens	person=2	number=sg
+Verbessert	norm=verbessern	tense=praesens	person=32	number=sgpl
+Verbessern	norm=verbessern	tense=praesens	person=13	number=pl	infinitiv=yes
+Verbesserte	norm=verbessern	tense=praeteritum	person=13	number=sg
+Verbessertest	norm=verbessern	tense=praeteritum	person=2	number=sg
+Verbesserten	norm=verbessern	tense=praeteritum	person=13	number=pl
+Verbessertet	norm=verbessern	tense=praeteritum	person=2	number=pl
+Verbessert	norm=verbessern	tense=perfekt	person=1	number=sgpl
+Verbessere	norm=verbessern	mood=imperativ	person=2	number=sg

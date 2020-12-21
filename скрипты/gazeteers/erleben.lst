@@ -1,0 +1,21 @@
+erlebe	norm=erleben	tense=praesens	person=1	number=sg
+erlebst	norm=erleben	tense=praesens	person=2	number=sg
+erlebt	norm=erleben	tense=praesens	person=32	number=sgpl
+erleben	norm=erleben	tense=praesens	person=13	number=pl	infinitiv=yes
+erlebte	norm=erleben	tense=praeteritum	person=13	number=sg
+erlebtest	norm=erleben	tense=praeteritum	person=2	number=sg
+erlebten	norm=erleben	tense=praeteritum	person=13	number=pl
+erlebtet	norm=erleben	tense=praeteritum	person=2	number=pl
+erlebt	norm=erleben	tense=perfekt	person=1	number=sgpl
+erleb	norm=erleben	mood=imperativ	person=2	number=sg
+
+Erlebe	norm=erleben	tense=praesens	person=1	number=sg
+Erlebst	norm=erleben	tense=praesens	person=2	number=sg
+Erlebt	norm=erleben	tense=praesens	person=32	number=sgpl
+Erleben	norm=erleben	tense=praesens	person=13	number=pl	infinitiv=yes
+Erlebtest	norm=erleben	tense=praeteritum	person=2	number=sg
+Erlebte	norm=erleben	tense=praeteritum	person=13	number=sg
+Erlebten	norm=erleben	tense=praeteritum	person=13	number=pl
+Erlebt	norm=erleben	tense=perfekt	person=1	number=sgpl
+Erlebtet	norm=erleben	tense=praeteritum	person=2	number=pl
+Erleb	norm=erleben	mood=imperativ	person=2	number=sg

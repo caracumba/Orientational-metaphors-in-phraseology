@@ -1,0 +1,21 @@
+verdiene	norm=verdienen	tense=praesens	person=1	number=sg
+verdienst	norm=verdienen	tense=praesens	person=2	number=sg
+verdient	norm=verdienen	tense=praesens	person=32	number=sgpl
+verdienen	norm=verdienen	tense=praesens	person=13	number=pl	infinitiv=yes
+verdiente	norm=verdienen	tense=praeteritum	person=13	number=sg
+verdientest	norm=verdienen	tense=praeteritum	person=2	number=sg
+verdienten	norm=verdienen	tense=praeteritum	person=13	number=pl
+verdientet	norm=verdienen	tense=praeteritum	person=2	number=pl
+verdient	norm=verdienen	tense=perfekt	person=1	number=sgpl
+verdien	norm=verdienen	mood=imperativ	person=2	number=sg
+
+Verdiene	norm=verdienen	tense=praesens	person=1	number=sg
+Verdienst	norm=verdienen	tense=praesens	person=2	number=sg
+Verdient	norm=verdienen	tense=praesens	person=32	number=sgpl
+Verdienen	norm=verdienen	tense=praesens	person=13	number=pl	infinitiv=yes
+Verdiente	norm=verdienen	tense=praeteritum	person=13	number=sg
+Verdientest	norm=verdienen	tense=praeteritum	person=2	number=sg
+Verdienten	norm=verdienen	tense=praeteritum	person=13	number=pl
+Verdientet	norm=verdienen	tense=praeteritum	person=2	number=pl
+Verdient	norm=verdienen	tense=perfekt	person=1	number=sgpl
+Verdien	norm=verdienen	mood=imperativ	person=2	number=sg

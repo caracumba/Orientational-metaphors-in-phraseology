@@ -1,0 +1,33 @@
+muss	norm=müssen	tense=praesens	person=13	number=sg
+musst	norm=müssen	tense=praesens	person=2	number=sg
+müssen	norm=müssen	tense=praesens	person=13	number=pl	infinitiv=yes
+müsst	norm=müssen	tense=praesens	person=2	number=pl
+musste	norm=müssen	tense=praeteritum	person=13	number=sg
+musstest	norm=müssen	tense=praeteritum	person=2	number=sg
+mussten	norm=müssen	tense=praeteritum	person=13	number=pl
+musstet	norm=müssen	tense=praeteritum	person=2	number=pl
+gemusst	norm=müssen	tense=perfekt	number=sgpl
+
+müsse	norm=müssen	mood=konjunktiv1	person=13	number=sg
+
+müsste	norm=müssen	mood=konjunktiv2	person=13	number=sg
+müsstest	norm=müssen	mood=konjunktiv2	person=2	number=sg
+müssten	norm=müssen	mood=konjunktiv2	person=13	number=pl
+müsstet	norm=müssen	mood=konjunktiv2	person=2	number=pl
+
+Muss	norm=müssen	tense=praesens	person=13	number=sg
+Musst	norm=müssen	tense=praesens	person=2	number=sg
+Müssen	norm=müssen	tense=praesens	person=13	number=pl	infinitiv=yes
+Müsst	norm=müssen	tense=praesens	person=2	number=pl
+Musste	norm=müssen	tense=praeteritum	person=13	number=sg
+Musstest	norm=müssen	tense=praeteritum	person=2	number=sg
+Mussten	norm=müssen	tense=praeteritum	person=13	number=pl
+Musstet	norm=müssen	tense=praeteritum	person=2	number=pl
+Gemusst	norm=müssen	tense=perfekt	number=sgpl
+
+Müsse	norm=müssen	mood=konjunktiv1	person=13	number=sg
+
+Müsste	norm=müssen	mood=konjunktiv2	person=13	number=sg
+Müsstest	norm=müssen	mood=konjunktiv2	person=2	number=sg
+Müssten	norm=müssen	mood=konjunktiv2	person=13	number=pl
+Müsstet	norm=müssen	mood=konjunktiv2	person=2	number=pl

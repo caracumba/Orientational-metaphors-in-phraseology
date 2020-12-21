@@ -1,0 +1,27 @@
+trage	norm=tragen	tense=praesens	person=1	number=sg
+trägst	norm=tragen	tense=praesens	person=2	number=sg
+trägt	norm=tragen	tense=praesens	person=3	number=sg
+tragen	norm=tragen	tense=praesens	person=13	number=pl	infinitiv=yes
+tragt	norm=tragen	tense=praesens	person=2	number=pl
+trug	norm=tragen	tense=praeteritum	person=13	number=sg
+trugst	norm=tragen	tense=praeteritum	person=12	number=sg
+trugen	norm=tragen	tense=praeteritum	person=13	number=pl
+trugt	norm=tragen	tense=praeteritum	person=2	number=pl
+getragen	norm=tragen	tense=perfekt	person=1	number=sgpl
+trüge	norm=tragen	mood=konjunktiv2	person=13	number=sg
+trügen	norm=tragen	mood=konjunktiv2	person=13	number=pl
+trag	norm=tragen	mood=imperativ	person=2	number=sg
+
+Trage	norm=tragen	tense=praesens	person=1	number=sg
+Trägst	norm=tragen	tense=praesens	person=2	number=sg
+Trägt	norm=tragen	tense=praesens	person=3	number=sg
+Tragen	norm=tragen	tense=praesens	person=13	number=pl	infinitiv=yes
+Tragt	norm=tragen	tense=praesens	person=2	number=pl
+Trug	norm=tragen	tense=praeteritum	person=13	number=sg
+Trugst	norm=tragen	tense=praeteritum	person=12	number=sg
+Trugen	norm=tragen	tense=praeteritum	person=13	number=pl
+Trugt	norm=tragen	tense=praeteritum	person=2	number=pl
+Getragen	norm=tragen	tense=perfekt	person=1	number=sgpl
+Trüge	norm=tragen	mood=konjunktiv2	person=13	number=sg
+Trügen	norm=tragen	mood=konjunktiv2	person=13	number=pl
+Trag	norm=tragen	mood=imperativ	person=2	number=sg

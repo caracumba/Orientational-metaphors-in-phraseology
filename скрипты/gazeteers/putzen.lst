@@ -1,0 +1,19 @@
+putze	norm=putzen	tense=praesens	person=1	number=sg
+putzt	norm=putzen	tense=praesens	person=32	number=sgpl
+putzen	norm=putzen	tense=praesens	person=13	number=pl	infinitiv=yes
+putzte	norm=putzen	tense=praeteritum	person=13	number=sg
+putztest	norm=putzen	tense=praeteritum	person=2	number=sg
+putzten	norm=putzen	tense=praeteritum	person=13	number=pl
+putztet	norm=putzen	tense=praeteritum	person=2	number=pl
+geputzt	norm=putzen	tense=perfekt	person=1	number=sgpl
+putz	norm=putzen	mood=imperativ	person=2	number=sg
+
+Putze	norm=putzen	tense=praesens	person=1	number=sg
+Putzt	norm=putzen	tense=praesens	person=32	number=sgpl
+Putzen	norm=putzen	tense=praesens	person=13	number=pl	infinitiv=yes
+Putzte	norm=putzen	tense=praeteritum	person=13	number=sg
+Putztest	norm=putzen	tense=praeteritum	person=2	number=sg
+Putzten	norm=putzen	tense=praeteritum	person=13	number=pl
+Putztet	norm=putzen	tense=praeteritum	person=2	number=pl
+Geputzt	norm=putzen	tense=perfekt	person=1	number=sgpl
+Putz	norm=putzen	mood=imperativ	person=2	number=sg

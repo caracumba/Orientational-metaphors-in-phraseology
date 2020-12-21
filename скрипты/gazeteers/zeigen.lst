@@ -1,0 +1,21 @@
+zeige	norm=zeigen	tense=praesens	person=1	number=sg
+zeigst	norm=zeigen	tense=praesens	person=2	number=sg
+zeigt	norm=zeigen	tense=praesens	person=32	number=sgpl
+zeigen	norm=zeigen	tense=praesens	person=13	number=pl	infinitiv=yes
+zeigte	norm=zeigen	tense=praeteritum	person=13	number=sg
+zeigtest	norm=zeigen	tense=praeteritum	person=2	number=sg
+zeigten	norm=zeigen	tense=praeteritum	person=13	number=pl
+zeigtet	norm=zeigen	tense=praeteritum	person=2	number=pl
+gezeigt	norm=zeigen	tense=perfekt	person=1	number=sgpl
+zeig	norm=zeigen	mood=imperativ	person=2	number=sg
+
+Zeige	norm=zeigen	tense=praesens	person=1	number=sg
+Zeigst	norm=zeigen	tense=praesens	person=2	number=sg
+Zeigt	norm=zeigen	tense=praesens	person=32	number=sgpl
+Zeigen	norm=zeigen	tense=praesens	person=13	number=pl	infinitiv=yes
+Zeigte	norm=zeigen	tense=praeteritum	person=13	number=sg
+Zeigtest	norm=zeigen	tense=praeteritum	person=2	number=sg
+Zeigten	norm=zeigen	tense=praeteritum	person=13	number=pl
+Zeigtet	norm=zeigen	tense=praeteritum	person=2	number=pl
+Gezeigt	norm=zeigen	tense=perfekt	person=1	number=sgpl
+Zeig	norm=zeigen	mood=imperativ	person=2	number=sg

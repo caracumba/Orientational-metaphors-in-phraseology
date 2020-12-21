@@ -1,0 +1,19 @@
+tanze	norm=tanzen	tense=praesens	person=1	number=sg
+tanzt	norm=tanzen	tense=praesens	person=32	number=sgpl
+tanzen	norm=tanzen	tense=praesens	person=13	number=pl	infinitiv=yes
+tanzte	norm=tanzen	tense=praeteritum	person=13	number=sg
+tanztest	norm=tanzen	tense=praeteritum	person=2	number=sg
+tanzten	norm=tanzen	tense=praeteritum	person=13	number=pl
+tanztet	norm=tanzen	tense=praeteritum	person=2	number=pl
+getanzt	norm=tanzen	tense=perfekt	person=1	number=sgpl
+tanz	norm=tanzen	mood=imperativ	person=2	number=sg
+
+Tanze	norm=tanzen	tense=praesens	person=1	number=sg
+Tanzt	norm=tanzen	tense=praesens	person=32	number=sgpl
+Tanzen	norm=tanzen	tense=praesens	person=13	number=pl	infinitiv=yes
+Tanzte	norm=tanzen	tense=praeteritum	person=13	number=sg
+Tanztest	norm=tanzen	tense=praeteritum	person=2	number=sg
+Tanzten	norm=tanzen	tense=praeteritum	person=13	number=pl
+Tanztet	norm=tanzen	tense=praeteritum	person=2	number=pl
+Getanzt	norm=tanzen	tense=perfekt	person=1	number=sgpl
+Tanz	norm=tanzen	mood=imperativ	person=2	number=sg
