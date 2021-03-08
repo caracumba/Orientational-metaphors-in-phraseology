@@ -34,3 +34,8 @@
 
 [Код для GATE: gapp файл, jape trancducers, gazeteers](https://github.com/caracumba/Orientational-metaphors-in-phraseology/tree/main/%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D1%8B)
 
+### Английский язык
+
+[Сводная таблица с данными по модификациям английских идиом](https://docs.google.com/spreadsheets/d/1LSl607nAGvFC4132jH1KbIY1xY8V3CB9z0-9e0tSea4/edit#gid=1716454478)
+
+[Аннотированные файлы](https://github.com/caracumba/Orientational-metaphors-in-phraseology/tree/main/en_annotated)
