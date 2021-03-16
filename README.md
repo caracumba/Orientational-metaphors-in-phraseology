@@ -39,3 +39,10 @@
 [Сводная таблица с данными по модификациям английских идиом](https://docs.google.com/spreadsheets/d/1LSl607nAGvFC4132jH1KbIY1xY8V3CB9z0-9e0tSea4/edit#gid=1716454478)
 
 [Аннотированные файлы](https://github.com/caracumba/Orientational-metaphors-in-phraseology/tree/main/en_annotated)
+
+### Русский язык
+
+[Сводная таблица с данными по модификациям русских идиом](https://docs.google.com/spreadsheets/d/1P6f1ZOdpRUDar7hDT59bD5YD-buBk-yvMpiW7DBRvi8/edit#gid=0)
+
+[Аннотированные файлы](https://github.com/caracumba/Orientational-metaphors-in-phraseology/tree/main/ru_annotated)
+
