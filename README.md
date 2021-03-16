@@ -46,3 +46,5 @@
 
 [Аннотированные файлы](https://github.com/caracumba/Orientational-metaphors-in-phraseology/tree/main/ru_annotated)
 
+[Аннотированные файлы 2](https://github.com/caracumba/Orientational-metaphors-in-phraseology/tree/main/ru_annotated2)
+
