@@ -1,4 +1,10 @@
-# Orientational-metaphors-in-phraseology
+<!DOCTYPE html>
+<html>
+<head>
+<title># Orientational-metaphors-in-phraseology</title>
+</head>
+<body>
+
 
 # Ориентационные метафоры во фразеологии: особенности употребления и лексико-грамматических изменений фразеологизмов в славянских, германских и кельтских языках
 ## Проект поддержан грантом РФФИ № 18-012-00335 на 2018-2020 гг.
@@ -48,3 +54,5 @@
 
 [Аннотированные файлы 2](https://github.com/caracumba/Orientational-metaphors-in-phraseology/tree/main/ru_annotated2)
 
+</body>
+</html>
